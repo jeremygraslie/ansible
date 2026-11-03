@@ -1,0 +1,11 @@
+---
+valheim_server:
+  hosts:
+    thor:
+      ansible_host: 172.20.6.202
+      ansible_connection: ssh
+      ansible_user: jeremy
+      ansible_ssh_private_key_file: ~/.ssh/ubuntu_server
+game_servers:
+  children:
+    valheim_server:

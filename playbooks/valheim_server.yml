@@ -1,0 +1,31 @@
+---
+- name: Valheim Server Setup
+  hosts: valheim_server
+  tasks:
+
+  # create Steam user:
+  - name: Create Steam user
+    ansible.builtin.user:
+      user: steam
+      comment: steam user
+      state: present
+      home: /var/lib/gameserver/steam
+
+  - name: Enable the multiverse component using modern deb822 format
+    ansible.builtin.deb822_repository:
+      name: ubuntu
+      types: [deb]
+      components: [multiverse]
+      state: present
+    become: true
+  
+  - name: Update APT repository
+    ansible.builtin.apt:
+      update_cache: true
+
+  # install steamcmd
+  - name: Create Valheim Folder
+    ansible.builtin.file:
+      path: /games/servers/valheim
+      state: directory
+      mode: '0755'
