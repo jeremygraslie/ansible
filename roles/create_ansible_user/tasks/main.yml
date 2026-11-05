@@ -1,0 +1,11 @@
+- name: Create Ansible User
+  ansible.builtin.user:
+    name: test
+    state: present
+    create_home: true
+    shell: /bin/bash
+    # generate_ssh_key: true
+    # ssh_key_type: ed25515
+    # ssh_key_file: test
+    # ssh_key_comment: "ansible-generated on $HOSTNAME"
+  become: true

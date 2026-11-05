@@ -1,0 +1,3448 @@
+2026-11-04 20:55:33,636 p=6532 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-04 20:55:33,706 p=6532 u=jeremygraslie n=ansible WARNING| [WARNING]: Failed to load callback plugin 'log_plays': Unable to create local directories '/private/var/log/ansible/hosts': [Errno 13] Permission denied: b'/private/var/log/ansible'
+
+2026-11-04 20:55:33,714 p=6532 u=jeremygraslie n=ansible INFO| Wednesday 04 November 2026  20:55:33 -0600 (0:00:00.016)       0:00:00.016 **** 
+2026-11-04 20:55:35,117 p=6532 u=jeremygraslie n=ansible INFO| thor | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2026-11-04 20:55:35,118 p=6532 u=jeremygraslie n=ansible INFO| PLAYBOOK RECAP ***************************************************************************************************************************************************************************************
+2026-11-04 20:55:35,118 p=6532 u=jeremygraslie n=ansible INFO| Playbook run took 0 days, 0 hours, 0 minutes, 1 seconds
+
+2026-11-04 20:55:35,118 p=6532 u=jeremygraslie n=ansible INFO| TASKS RECAP ******************************************************************************************************************************************************************************************
+2026-11-04 20:55:35,118 p=6532 u=jeremygraslie n=ansible INFO| Wednesday 04 November 2026  20:55:35 -0600 (0:00:01.403)       0:00:01.420 **** 
+2026-11-04 20:55:35,118 p=6532 u=jeremygraslie n=ansible INFO| =============================================================================== 
+2026-11-04 20:55:35,118 p=6532 u=jeremygraslie n=ansible INFO| ping ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ 1.40s
+2026-11-04 20:56:02,945 p=6647 u=jeremygraslie n=ansible INFO| ansible [core 2.21.5]
+  config file = /Users/jeremygraslie/GitHub/ansible/ansible.cfg
+  configured module search path = ['/Users/jeremygraslie/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /opt/homebrew/Cellar/ansible/14.5.0_2/libexec/lib/python3.15/site-packages/ansible
+  ansible collection location = /Users/jeremygraslie/.ansible/collections:/usr/share/ansible/collections
+  executable location = /opt/homebrew/bin/ansible
+  python version = 3.15.2 (main, Oct 25 2026, 16:57:51) [Clang 21.0.0 (clang-2100.3.34.2)] (/opt/homebrew/Cellar/ansible/14.5.0_2/libexec/bin/python)
+  jinja version = 3.1.6
+  pyyaml version = 6.0.3 (with libyaml v0.2.5)
+2026-11-04 20:56:02,945 p=6647 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-04 20:56:03,004 p=6647 u=jeremygraslie n=ansible INFO| redirecting (type: callback) ansible.builtin.timer to ansible.posix.timer
+2026-11-04 20:56:03,005 p=6647 u=jeremygraslie n=ansible INFO| redirecting (type: callback) ansible.builtin.profile_tasks to ansible.posix.profile_tasks
+2026-11-04 20:56:03,005 p=6647 u=jeremygraslie n=ansible INFO| redirecting (type: callback) ansible.builtin.log_plays to community.general.log_plays
+2026-11-04 20:56:03,012 p=6647 u=jeremygraslie n=ansible INFO| Skipping callback 'default', as we already have a stdout callback.
+2026-11-04 20:56:03,013 p=6647 u=jeremygraslie n=ansible INFO| Skipping callback 'oneline', as we already have a stdout callback.
+2026-11-04 20:56:03,013 p=6647 u=jeremygraslie n=ansible WARNING| [WARNING]: Failed to load callback plugin 'log_plays': Unable to create local directories '/private/var/log/ansible/hosts': [Errno 13] Permission denied: b'/private/var/log/ansible'
+
+2026-11-04 20:56:03,021 p=6647 u=jeremygraslie n=ansible INFO| Wednesday 04 November 2026  20:56:03 -0600 (0:00:00.015)       0:00:00.015 **** 
+2026-11-04 20:56:04,510 p=6647 u=jeremygraslie n=ansible INFO| thor | SUCCESS => {
+    "ansible_facts": {
+        "ansible_all_ipv4_addresses": [
+            "172.20.6.202"
+        ],
+        "ansible_all_ipv6_addresses": [
+            "fe80::428d:5cff:fe6d:cf42"
+        ],
+        "ansible_apparmor": {
+            "status": "enabled"
+        },
+        "ansible_architecture": "x86_64",
+        "ansible_bios_date": "10/20/2015",
+        "ansible_bios_vendor": "American Megatrends Inc.",
+        "ansible_bios_version": "F3",
+        "ansible_board_asset_tag": "Default string",
+        "ansible_board_name": "MKLP5AP-00",
+        "ansible_board_serial": "NA",
+        "ansible_board_vendor": "GIGABYTE",
+        "ansible_board_version": "1.x",
+        "ansible_chassis_asset_tag": "Default string",
+        "ansible_chassis_serial": "NA",
+        "ansible_chassis_vendor": "Default string",
+        "ansible_chassis_version": "Default string",
+        "ansible_cmdline": {
+            "BOOT_IMAGE": "/vmlinuz-7.0.0-42-generic",
+            "crashkernel": "2G-4G:320M,4G-32G:512M,32G-64G:1024M,64G-128G:2048M,128G-:4096M",
+            "ro": true,
+            "root": "/dev/mapper/ubuntu--vg-ubuntu--lv"
+        },
+        "ansible_date_time": {
+            "date": "2026-11-05",
+            "day": "05",
+            "epoch": "1793847364",
+            "epoch_int": "1793847364",
+            "hour": "02",
+            "iso8601": "2026-11-05T02:56:04Z",
+            "iso8601_basic": "20261105T025604312140",
+            "iso8601_basic_short": "20261105T025604",
+            "iso8601_micro": "2026-11-05T02:56:04.312140Z",
+            "minute": "56",
+            "month": "11",
+            "second": "04",
+            "time": "02:56:04",
+            "tz": "UTC",
+            "tz_dst": "UTC",
+            "tz_offset": "+0000",
+            "weekday": "Thursday",
+            "weekday_number": "4",
+            "weeknumber": "44",
+            "year": "2026"
+        },
+        "ansible_default_ipv4": {
+            "address": "172.20.6.202",
+            "alias": "enp0s31f6",
+            "broadcast": "",
+            "gateway": "172.20.1.1",
+            "interface": "enp0s31f6",
+            "macaddress": "40:8d:5c:6d:cf:42",
+            "mtu": 1500,
+            "netmask": "255.255.0.0",
+            "network": "172.20.0.0",
+            "prefix": "16",
+            "type": "ether"
+        },
+        "ansible_default_ipv6": {},
+        "ansible_device_links": {
+            "ids": {
+                "dm-0": [
+                    "dm-name-ubuntu--vg-ubuntu--lv",
+                    "dm-uuid-LVM-6ZfLn2ke6Zt3jS4XToY7Y5v3PBuQj3bZQ7kwg5kcoZ3SoFjPZCgP8STFfxXatxqp"
+                ],
+                "sda": [
+                    "ata-Crucial_CT250MX200SSD4_162212DF0030",
+                    "scsi-3500a075112df0030",
+                    "wwn-0x500a075112df0030"
+                ],
+                "sda1": [
+                    "ata-Crucial_CT250MX200SSD4_162212DF0030-part1",
+                    "scsi-3500a075112df0030-part1",
+                    "wwn-0x500a075112df0030-part1"
+                ],
+                "sda2": [
+                    "ata-Crucial_CT250MX200SSD4_162212DF0030-part2",
+                    "scsi-3500a075112df0030-part2",
+                    "wwn-0x500a075112df0030-part2"
+                ],
+                "sda3": [
+                    "ata-Crucial_CT250MX200SSD4_162212DF0030-part3",
+                    "lvm-pv-uuid-fOUz8h-t0P1-CQmS-w12r-dmsi-gcrh-Mnb6PW",
+                    "scsi-3500a075112df0030-part3",
+                    "wwn-0x500a075112df0030-part3"
+                ]
+            },
+            "labels": {},
+            "masters": {
+                "sda3": [
+                    "dm-0"
+                ]
+            },
+            "uuids": {
+                "dm-0": [
+                    "57fab5dc-27ef-40f1-af11-c5957530971e"
+                ],
+                "sda1": [
+                    "D08B-CB25"
+                ],
+                "sda2": [
+                    "e90d320c-025b-4f47-92e1-0721e857a64c"
+                ]
+            }
+        },
+        "ansible_devices": {
+            "dm-0": {
+                "holders": [],
+                "host": "",
+                "links": {
+                    "ids": [
+                        "dm-name-ubuntu--vg-ubuntu--lv",
+                        "dm-uuid-LVM-6ZfLn2ke6Zt3jS4XToY7Y5v3PBuQj3bZQ7kwg5kcoZ3SoFjPZCgP8STFfxXatxqp"
+                    ],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": [
+                        "57fab5dc-27ef-40f1-af11-c5957530971e"
+                    ]
+                },
+                "model": null,
+                "partitions": {},
+                "removable": "0",
+                "rotational": "0",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "",
+                "sectors": 209715200,
+                "sectorsize": "512",
+                "size": "100.00 GB",
+                "support_discard": "4096",
+                "vendor": null,
+                "virtual": 1
+            },
+            "loop0": {
+                "holders": [],
+                "host": "",
+                "links": {
+                    "ids": [],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": []
+                },
+                "model": null,
+                "partitions": {},
+                "removable": "0",
+                "rotational": "0",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "none",
+                "sectors": 136816,
+                "sectorsize": "512",
+                "size": "66.80 MB",
+                "support_discard": "4096",
+                "vendor": null,
+                "virtual": 1
+            },
+            "loop1": {
+                "holders": [],
+                "host": "",
+                "links": {
+                    "ids": [],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": []
+                },
+                "model": null,
+                "partitions": {},
+                "removable": "0",
+                "rotational": "0",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "none",
+                "sectors": 3088,
+                "sectorsize": "512",
+                "size": "1.51 MB",
+                "support_discard": "4096",
+                "vendor": null,
+                "virtual": 1
+            },
+            "loop2": {
+                "holders": [],
+                "host": "",
+                "links": {
+                    "ids": [],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": []
+                },
+                "model": null,
+                "partitions": {},
+                "removable": "0",
+                "rotational": "0",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "none",
+                "sectors": 3088,
+                "sectorsize": "512",
+                "size": "1.51 MB",
+                "support_discard": "4096",
+                "vendor": null,
+                "virtual": 1
+            },
+            "loop3": {
+                "holders": [],
+                "host": "",
+                "links": {
+                    "ids": [],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": []
+                },
+                "model": null,
+                "partitions": {},
+                "removable": "0",
+                "rotational": "0",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "none",
+                "sectors": 102608,
+                "sectorsize": "512",
+                "size": "50.10 MB",
+                "support_discard": "4096",
+                "vendor": null,
+                "virtual": 1
+            },
+            "loop4": {
+                "holders": [],
+                "host": "",
+                "links": {
+                    "ids": [],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": []
+                },
+                "model": null,
+                "partitions": {},
+                "removable": "0",
+                "rotational": "0",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "none",
+                "sectors": 136784,
+                "sectorsize": "512",
+                "size": "66.79 MB",
+                "support_discard": "4096",
+                "vendor": null,
+                "virtual": 1
+            },
+            "loop5": {
+                "holders": [],
+                "host": "",
+                "links": {
+                    "ids": [],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": []
+                },
+                "model": null,
+                "partitions": {},
+                "removable": "0",
+                "rotational": "0",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "none",
+                "sectors": 0,
+                "sectorsize": "512",
+                "size": "0.00 Bytes",
+                "support_discard": "0",
+                "vendor": null,
+                "virtual": 1
+            },
+            "loop6": {
+                "holders": [],
+                "host": "",
+                "links": {
+                    "ids": [],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": []
+                },
+                "model": null,
+                "partitions": {},
+                "removable": "0",
+                "rotational": "0",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "none",
+                "sectors": 0,
+                "sectorsize": "512",
+                "size": "0.00 Bytes",
+                "support_discard": "0",
+                "vendor": null,
+                "virtual": 1
+            },
+            "loop7": {
+                "holders": [],
+                "host": "",
+                "links": {
+                    "ids": [],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": []
+                },
+                "model": null,
+                "partitions": {},
+                "removable": "0",
+                "rotational": "0",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "none",
+                "sectors": 0,
+                "sectorsize": "512",
+                "size": "0.00 Bytes",
+                "support_discard": "0",
+                "vendor": null,
+                "virtual": 1
+            },
+            "sda": {
+                "holders": [],
+                "host": "SATA controller: Intel Corporation Sunrise Point-LP SATA Controller [AHCI mode] (rev 21)",
+                "links": {
+                    "ids": [
+                        "ata-Crucial_CT250MX200SSD4_162212DF0030",
+                        "scsi-3500a075112df0030",
+                        "wwn-0x500a075112df0030"
+                    ],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": []
+                },
+                "model": "Crucial_CT250MX2",
+                "partitions": {
+                    "sda1": {
+                        "holders": [],
+                        "links": {
+                            "ids": [
+                                "ata-Crucial_CT250MX200SSD4_162212DF0030-part1",
+                                "scsi-3500a075112df0030-part1",
+                                "wwn-0x500a075112df0030-part1"
+                            ],
+                            "labels": [],
+                            "masters": [],
+                            "uuids": [
+                                "D08B-CB25"
+                            ]
+                        },
+                        "sectors": 2201600,
+                        "sectorsize": 512,
+                        "size": "1.05 GB",
+                        "start": "2048",
+                        "uuid": "D08B-CB25"
+                    },
+                    "sda2": {
+                        "holders": [],
+                        "links": {
+                            "ids": [
+                                "ata-Crucial_CT250MX200SSD4_162212DF0030-part2",
+                                "scsi-3500a075112df0030-part2",
+                                "wwn-0x500a075112df0030-part2"
+                            ],
+                            "labels": [],
+                            "masters": [],
+                            "uuids": [
+                                "e90d320c-025b-4f47-92e1-0721e857a64c"
+                            ]
+                        },
+                        "sectors": 4194304,
+                        "sectorsize": 512,
+                        "size": "2.00 GB",
+                        "start": "2203648",
+                        "uuid": "e90d320c-025b-4f47-92e1-0721e857a64c"
+                    },
+                    "sda3": {
+                        "holders": [
+                            "ubuntu--vg-ubuntu--lv"
+                        ],
+                        "links": {
+                            "ids": [
+                                "ata-Crucial_CT250MX200SSD4_162212DF0030-part3",
+                                "lvm-pv-uuid-fOUz8h-t0P1-CQmS-w12r-dmsi-gcrh-Mnb6PW",
+                                "scsi-3500a075112df0030-part3",
+                                "wwn-0x500a075112df0030-part3"
+                            ],
+                            "labels": [],
+                            "masters": [
+                                "dm-0"
+                            ],
+                            "uuids": []
+                        },
+                        "sectors": 481996800,
+                        "sectorsize": 512,
+                        "size": "229.83 GB",
+                        "start": "6397952",
+                        "uuid": null
+                    }
+                },
+                "removable": "0",
+                "rotational": "0",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "mq-deadline",
+                "sectors": 488397168,
+                "sectorsize": "512",
+                "size": "232.89 GB",
+                "support_discard": "4096",
+                "vendor": "ATA",
+                "virtual": 1,
+                "wwn": "0x500a075112df0030"
+            }
+        },
+        "ansible_distribution": "Ubuntu",
+        "ansible_distribution_file_parsed": true,
+        "ansible_distribution_file_path": "/etc/os-release",
+        "ansible_distribution_file_variety": "Debian",
+        "ansible_distribution_major_version": "26",
+        "ansible_distribution_release": "resolute",
+        "ansible_distribution_version": "26.04",
+        "ansible_dns": {
+            "nameservers": [
+                "127.0.0.53"
+            ],
+            "options": {
+                "edns0": true,
+                "trust-ad": true
+            },
+            "search": [
+                "."
+            ]
+        },
+        "ansible_domain": "",
+        "ansible_effective_group_id": 1000,
+        "ansible_effective_user_id": 1000,
+        "ansible_enp0s31f6": {
+            "active": true,
+            "device": "enp0s31f6",
+            "features": {
+                "esp_hw_offload": "off [fixed]",
+                "esp_tx_csum_hw_offload": "off [fixed]",
+                "generic_receive_offload": "on",
+                "generic_segmentation_offload": "on",
+                "highdma": "on [fixed]",
+                "hsr_dup_offload": "off [fixed]",
+                "hsr_fwd_offload": "off [fixed]",
+                "hsr_tag_ins_offload": "off [fixed]",
+                "hsr_tag_rm_offload": "off [fixed]",
+                "hw_tc_offload": "off [fixed]",
+                "l2_fwd_offload": "off [fixed]",
+                "large_receive_offload": "off [fixed]",
+                "loopback": "off [fixed]",
+                "macsec_hw_offload": "off [fixed]",
+                "ntuple_filters": "off [fixed]",
+                "receive_hashing": "on",
+                "rx_all": "off",
+                "rx_checksumming": "on",
+                "rx_fcs": "off",
+                "rx_gro_hw": "off [fixed]",
+                "rx_gro_list": "off",
+                "rx_udp_gro_forwarding": "off",
+                "rx_udp_tunnel_port_offload": "off [fixed]",
+                "rx_vlan_filter": "off [fixed]",
+                "rx_vlan_offload": "on",
+                "rx_vlan_stag_filter": "off [fixed]",
+                "rx_vlan_stag_hw_parse": "off [fixed]",
+                "scatter_gather": "on",
+                "tcp_segmentation_offload": "off",
+                "tls_hw_record": "off [fixed]",
+                "tls_hw_rx_offload": "off [fixed]",
+                "tls_hw_tx_offload": "off [fixed]",
+                "tx_checksum_fcoe_crc": "off [fixed]",
+                "tx_checksum_ip_generic": "on",
+                "tx_checksum_ipv4": "off [fixed]",
+                "tx_checksum_ipv6": "off [fixed]",
+                "tx_checksum_sctp": "off [fixed]",
+                "tx_checksumming": "on",
+                "tx_esp_segmentation": "off [fixed]",
+                "tx_fcoe_segmentation": "off [fixed]",
+                "tx_gre_csum_segmentation": "off [fixed]",
+                "tx_gre_segmentation": "off [fixed]",
+                "tx_gso_list": "off [fixed]",
+                "tx_gso_partial": "off [fixed]",
+                "tx_gso_robust": "off [fixed]",
+                "tx_ipxip4_segmentation": "off [fixed]",
+                "tx_ipxip6_segmentation": "off [fixed]",
+                "tx_nocache_copy": "off",
+                "tx_scatter_gather": "on",
+                "tx_scatter_gather_fraglist": "off [fixed]",
+                "tx_sctp_segmentation": "off [fixed]",
+                "tx_tcp6_segmentation": "off [fixed]",
+                "tx_tcp_accecn_segmentation": "off [fixed]",
+                "tx_tcp_ecn_segmentation": "off [fixed]",
+                "tx_tcp_mangleid_segmentation": "off [fixed]",
+                "tx_tcp_segmentation": "off [fixed]",
+                "tx_tunnel_remcsum_segmentation": "off [fixed]",
+                "tx_udp_segmentation": "off [fixed]",
+                "tx_udp_tnl_csum_segmentation": "off [fixed]",
+                "tx_udp_tnl_segmentation": "off [fixed]",
+                "tx_vlan_offload": "on",
+                "tx_vlan_stag_hw_insert": "off [fixed]",
+                "vlan_challenged": "off [fixed]"
+            },
+            "hw_timestamp_filters": [],
+            "ipv4": {
+                "address": "172.20.6.202",
+                "broadcast": "",
+                "netmask": "255.255.0.0",
+                "network": "172.20.0.0",
+                "prefix": "16"
+            },
+            "ipv6": [
+                {
+                    "address": "fe80::428d:5cff:fe6d:cf42",
+                    "prefix": "64",
+                    "scope": "link"
+                }
+            ],
+            "macaddress": "40:8d:5c:6d:cf:42",
+            "module": "e1000e",
+            "mtu": 1500,
+            "pciid": "0000:00:1f.6",
+            "promisc": false,
+            "speed": 1000,
+            "timestamping": [],
+            "type": "ether"
+        },
+        "ansible_env": {
+            "DBUS_SESSION_BUS_ADDRESS": "unix:path=/run/user/1000/bus",
+            "HOME": "/home/jeremy",
+            "LANG": "en_US.UTF-8",
+            "LOGNAME": "jeremy",
+            "PATH": "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin",
+            "PWD": "/home/jeremy",
+            "SHELL": "/bin/bash",
+            "SHLVL": "0",
+            "SSH_CLIENT": "172.20.8.166 52877 22",
+            "SSH_CONNECTION": "172.20.8.166 52877 172.20.6.202 22",
+            "SSH_TTY": "/dev/pts/0",
+            "TERM": "xterm-256color",
+            "USER": "jeremy",
+            "XDG_RUNTIME_DIR": "/run/user/1000",
+            "XDG_SESSION_CLASS": "user",
+            "XDG_SESSION_ID": "143",
+            "XDG_SESSION_TYPE": "tty",
+            "_": "/bin/sh"
+        },
+        "ansible_fibre_channel_wwn": [],
+        "ansible_fips": false,
+        "ansible_flags": [
+            "fpu",
+            "vme",
+            "de",
+            "pse",
+            "tsc",
+            "msr",
+            "pae",
+            "mce",
+            "cx8",
+            "apic",
+            "sep",
+            "mtrr",
+            "pge",
+            "mca",
+            "cmov",
+            "pat",
+            "pse36",
+            "clflush",
+            "dts",
+            "acpi",
+            "mmx",
+            "fxsr",
+            "sse",
+            "sse2",
+            "ss",
+            "ht",
+            "tm",
+            "pbe",
+            "syscall",
+            "nx",
+            "pdpe1gb",
+            "rdtscp",
+            "lm",
+            "constant_tsc",
+            "art",
+            "arch_perfmon",
+            "pebs",
+            "bts",
+            "rep_good",
+            "nopl",
+            "xtopology",
+            "nonstop_tsc",
+            "cpuid",
+            "aperfmperf",
+            "pni",
+            "pclmulqdq",
+            "dtes64",
+            "monitor",
+            "ds_cpl",
+            "vmx",
+            "est",
+            "tm2",
+            "ssse3",
+            "sdbg",
+            "fma",
+            "cx16",
+            "xtpr",
+            "pdcm",
+            "pcid",
+            "sse4_1",
+            "sse4_2",
+            "x2apic",
+            "movbe",
+            "popcnt",
+            "tsc_deadline_timer",
+            "aes",
+            "xsave",
+            "avx",
+            "f16c",
+            "rdrand",
+            "lahf_lm",
+            "abm",
+            "3dnowprefetch",
+            "cpuid_fault",
+            "epb",
+            "pti",
+            "ssbd",
+            "ibrs",
+            "ibpb",
+            "stibp",
+            "tpr_shadow",
+            "flexpriority",
+            "ept",
+            "vpid",
+            "ept_ad",
+            "fsgsbase",
+            "tsc_adjust",
+            "bmi1",
+            "avx2",
+            "smep",
+            "bmi2",
+            "erms",
+            "invpcid",
+            "mpx",
+            "rdseed",
+            "adx",
+            "smap",
+            "clflushopt",
+            "intel_pt",
+            "xsaveopt",
+            "xsavec",
+            "xgetbv1",
+            "xsaves",
+            "dtherm",
+            "ida",
+            "arat",
+            "pln",
+            "pts",
+            "hwp",
+            "hwp_notify",
+            "hwp_act_window",
+            "hwp_epp",
+            "vnmi",
+            "md_clear",
+            "flush_l1d",
+            "arch_capabilities"
+        ],
+        "ansible_form_factor": "Desktop",
+        "ansible_fqdn": "thor",
+        "ansible_hostname": "thor",
+        "ansible_hostnqn": "",
+        "ansible_interfaces": [
+            "enp0s31f6",
+            "lo",
+            "wlp1s0"
+        ],
+        "ansible_is_chroot": false,
+        "ansible_iscsi_iqn": "",
+        "ansible_kernel": "7.0.0-42-generic",
+        "ansible_kernel_version": "#42-Ubuntu SMP PREEMPT_DYNAMIC Thu Oct 15 08:06:44 UTC 2026",
+        "ansible_lo": {
+            "active": true,
+            "device": "lo",
+            "features": {
+                "esp_hw_offload": "off [fixed]",
+                "esp_tx_csum_hw_offload": "off [fixed]",
+                "generic_receive_offload": "on",
+                "generic_segmentation_offload": "on",
+                "highdma": "on [fixed]",
+                "hsr_dup_offload": "off [fixed]",
+                "hsr_fwd_offload": "off [fixed]",
+                "hsr_tag_ins_offload": "off [fixed]",
+                "hsr_tag_rm_offload": "off [fixed]",
+                "hw_tc_offload": "off [fixed]",
+                "l2_fwd_offload": "off [fixed]",
+                "large_receive_offload": "off [fixed]",
+                "loopback": "on [fixed]",
+                "macsec_hw_offload": "off [fixed]",
+                "ntuple_filters": "off [fixed]",
+                "receive_hashing": "off [fixed]",
+                "rx_all": "off [fixed]",
+                "rx_checksumming": "on [fixed]",
+                "rx_fcs": "off [fixed]",
+                "rx_gro_hw": "off [fixed]",
+                "rx_gro_list": "off",
+                "rx_udp_gro_forwarding": "off",
+                "rx_udp_tunnel_port_offload": "off [fixed]",
+                "rx_vlan_filter": "off [fixed]",
+                "rx_vlan_offload": "off [fixed]",
+                "rx_vlan_stag_filter": "off [fixed]",
+                "rx_vlan_stag_hw_parse": "off [fixed]",
+                "scatter_gather": "on",
+                "tcp_segmentation_offload": "on",
+                "tls_hw_record": "off [fixed]",
+                "tls_hw_rx_offload": "off [fixed]",
+                "tls_hw_tx_offload": "off [fixed]",
+                "tx_checksum_fcoe_crc": "off [fixed]",
+                "tx_checksum_ip_generic": "on [fixed]",
+                "tx_checksum_ipv4": "off [fixed]",
+                "tx_checksum_ipv6": "off [fixed]",
+                "tx_checksum_sctp": "on [fixed]",
+                "tx_checksumming": "on",
+                "tx_esp_segmentation": "off [fixed]",
+                "tx_fcoe_segmentation": "off [fixed]",
+                "tx_gre_csum_segmentation": "off [fixed]",
+                "tx_gre_segmentation": "off [fixed]",
+                "tx_gso_list": "on",
+                "tx_gso_partial": "off [fixed]",
+                "tx_gso_robust": "off [fixed]",
+                "tx_ipxip4_segmentation": "off [fixed]",
+                "tx_ipxip6_segmentation": "off [fixed]",
+                "tx_nocache_copy": "off [fixed]",
+                "tx_scatter_gather": "on [fixed]",
+                "tx_scatter_gather_fraglist": "on [fixed]",
+                "tx_sctp_segmentation": "on",
+                "tx_tcp6_segmentation": "on",
+                "tx_tcp_accecn_segmentation": "on",
+                "tx_tcp_ecn_segmentation": "on",
+                "tx_tcp_mangleid_segmentation": "on",
+                "tx_tcp_segmentation": "on",
+                "tx_tunnel_remcsum_segmentation": "off [fixed]",
+                "tx_udp_segmentation": "on",
+                "tx_udp_tnl_csum_segmentation": "off [fixed]",
+                "tx_udp_tnl_segmentation": "off [fixed]",
+                "tx_vlan_offload": "off [fixed]",
+                "tx_vlan_stag_hw_insert": "off [fixed]",
+                "vlan_challenged": "on [fixed]"
+            },
+            "hw_timestamp_filters": [],
+            "ipv4": {
+                "address": "127.0.0.1",
+                "broadcast": "",
+                "netmask": "255.0.0.0",
+                "network": "127.0.0.0",
+                "prefix": "8"
+            },
+            "ipv6": [
+                {
+                    "address": "::1",
+                    "prefix": "128",
+                    "scope": "host"
+                }
+            ],
+            "mtu": 65536,
+            "promisc": false,
+            "timestamping": [],
+            "type": "loopback"
+        },
+        "ansible_loadavg": {
+            "15m": 0.0029296875,
+            "1m": 0.05126953125,
+            "5m": 0.01416015625
+        },
+        "ansible_local": {},
+        "ansible_locally_reachable_ips": {
+            "ipv4": [
+                "127.0.0.0/8",
+                "127.0.0.1",
+                "172.20.6.202"
+            ],
+            "ipv6": [
+                "::1",
+                "fe80::428d:5cff:fe6d:cf42"
+            ]
+        },
+        "ansible_lsb": {
+            "codename": "resolute",
+            "description": "Ubuntu 26.04.1 LTS",
+            "id": "Ubuntu",
+            "major_release": "26",
+            "release": "26.04"
+        },
+        "ansible_lvm": "N/A",
+        "ansible_machine": "x86_64",
+        "ansible_machine_id": "56bd3144ea0d4b509211ce44ab5c1375",
+        "ansible_memfree_mb": 14071,
+        "ansible_memory_mb": {
+            "nocache": {
+                "free": 14988,
+                "used": 402
+            },
+            "real": {
+                "free": 14071,
+                "total": 15390,
+                "used": 1319
+            },
+            "swap": {
+                "cached": 0,
+                "free": 4095,
+                "total": 4095,
+                "used": 0
+            }
+        },
+        "ansible_memtotal_mb": 15390,
+        "ansible_mounts": [
+            {
+                "block_available": 22470800,
+                "block_size": 4096,
+                "block_total": 25656558,
+                "block_used": 3185758,
+                "device": "/dev/mapper/ubuntu--vg-ubuntu--lv",
+                "dump": 0,
+                "fstype": "ext4",
+                "inode_available": 6443095,
+                "inode_total": 6553600,
+                "inode_used": 110505,
+                "mount": "/",
+                "options": "rw,relatime",
+                "passno": 0,
+                "size_available": 92040396800,
+                "size_total": 105089261568,
+                "uuid": "57fab5dc-27ef-40f1-af11-c5957530971e"
+            },
+            {
+                "block_available": 0,
+                "block_size": 131072,
+                "block_total": 535,
+                "block_used": 535,
+                "device": "/dev/loop0",
+                "dump": 0,
+                "fstype": "squashfs",
+                "inode_available": 0,
+                "inode_total": 10545,
+                "inode_used": 10545,
+                "mount": "/snap/core24/1643",
+                "options": "ro,nodev,relatime,errors=continue,threads=single",
+                "passno": 0,
+                "size_available": 0,
+                "size_total": 70123520,
+                "uuid": "N/A"
+            },
+            {
+                "block_available": 0,
+                "block_size": 131072,
+                "block_total": 13,
+                "block_used": 13,
+                "device": "/dev/loop1",
+                "dump": 0,
+                "fstype": "squashfs",
+                "inode_available": 0,
+                "inode_total": 88,
+                "inode_used": 88,
+                "mount": "/snap/hwctl/123",
+                "options": "ro,nodev,relatime,errors=continue,threads=single",
+                "passno": 0,
+                "size_available": 0,
+                "size_total": 1703936,
+                "uuid": "N/A"
+            },
+            {
+                "block_available": 0,
+                "block_size": 131072,
+                "block_total": 13,
+                "block_used": 13,
+                "device": "/dev/loop2",
+                "dump": 0,
+                "fstype": "squashfs",
+                "inode_available": 0,
+                "inode_total": 88,
+                "inode_used": 88,
+                "mount": "/snap/hwctl/131",
+                "options": "ro,nodev,relatime,errors=continue,threads=single",
+                "passno": 0,
+                "size_available": 0,
+                "size_total": 1703936,
+                "uuid": "N/A"
+            },
+            {
+                "block_available": 0,
+                "block_size": 131072,
+                "block_total": 401,
+                "block_used": 401,
+                "device": "/dev/loop3",
+                "dump": 0,
+                "fstype": "squashfs",
+                "inode_available": 0,
+                "inode_total": 610,
+                "inode_used": 610,
+                "mount": "/snap/snapd/27710",
+                "options": "ro,nodev,relatime,errors=continue,threads=single",
+                "passno": 0,
+                "size_available": 0,
+                "size_total": 52559872,
+                "uuid": "N/A"
+            },
+            {
+                "block_available": 443106,
+                "block_size": 4096,
+                "block_total": 498138,
+                "block_used": 55032,
+                "device": "/dev/sda2",
+                "dump": 0,
+                "fstype": "ext4",
+                "inode_available": 130738,
+                "inode_total": 131072,
+                "inode_used": 334,
+                "mount": "/boot",
+                "options": "rw,relatime",
+                "passno": 0,
+                "size_available": 1814962176,
+                "size_total": 2040373248,
+                "uuid": "e90d320c-025b-4f47-92e1-0721e857a64c"
+            },
+            {
+                "block_available": 273044,
+                "block_size": 4096,
+                "block_total": 274657,
+                "block_used": 1613,
+                "device": "/dev/sda1",
+                "dump": 0,
+                "fstype": "vfat",
+                "inode_available": 0,
+                "inode_total": 0,
+                "inode_used": 0,
+                "mount": "/boot/efi",
+                "options": "rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro",
+                "passno": 0,
+                "size_available": 1118388224,
+                "size_total": 1124995072,
+                "uuid": "D08B-CB25"
+            },
+            {
+                "block_available": 0,
+                "block_size": 131072,
+                "block_total": 535,
+                "block_used": 535,
+                "device": "/dev/loop4",
+                "dump": 0,
+                "fstype": "squashfs",
+                "inode_available": 0,
+                "inode_total": 10477,
+                "inode_used": 10477,
+                "mount": "/snap/core24/2124",
+                "options": "ro,nodev,relatime,errors=continue,threads=single",
+                "passno": 0,
+                "size_available": 0,
+                "size_total": 70123520,
+                "uuid": "N/A"
+            }
+        ],
+        "ansible_nodename": "thor",
+        "ansible_os_family": "Debian",
+        "ansible_pkg_mgr": "apt",
+        "ansible_proc_cmdline": {
+            "BOOT_IMAGE": "/vmlinuz-7.0.0-42-generic",
+            "crashkernel": "2G-4G:320M,4G-32G:512M,32G-64G:1024M,64G-128G:2048M,128G-:4096M",
+            "ro": true,
+            "root": "/dev/mapper/ubuntu--vg-ubuntu--lv"
+        },
+        "ansible_processor": [
+            "0",
+            "GenuineIntel",
+            "Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz",
+            "1",
+            "GenuineIntel",
+            "Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz",
+            "2",
+            "GenuineIntel",
+            "Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz",
+            "3",
+            "GenuineIntel",
+            "Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz"
+        ],
+        "ansible_processor_cores": 2,
+        "ansible_processor_count": 1,
+        "ansible_processor_nproc": 4,
+        "ansible_processor_threads_per_core": 2,
+        "ansible_processor_vcpus": 4,
+        "ansible_product_name": "GB-BSi5-6200",
+        "ansible_product_serial": "NA",
+        "ansible_product_uuid": "NA",
+        "ansible_product_version": "1.x",
+        "ansible_python": {
+            "executable": "/usr/bin/python3",
+            "has_sslcontext": true,
+            "type": "cpython",
+            "version": {
+                "major": 3,
+                "micro": 4,
+                "minor": 14,
+                "releaselevel": "final",
+                "serial": 0
+            },
+            "version_info": [
+                3,
+                14,
+                4,
+                "final",
+                0
+            ]
+        },
+        "ansible_python_version": "3.14.4",
+        "ansible_real_group_id": 1000,
+        "ansible_real_user_id": 1000,
+        "ansible_selinux": {
+            "status": "disabled"
+        },
+        "ansible_selinux_python_present": true,
+        "ansible_service_mgr": "systemd",
+        "ansible_ssh_host_key_ecdsa_public": "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBPr/yrA21jdrdTUUBmz1vaOnltiCPv02ZgIy3m7uUYpl/RsjQdkYXITJZ0PcTqr5dSI+FhMI1TLGuryBcehaIE4=",
+        "ansible_ssh_host_key_ecdsa_public_keytype": "ecdsa-sha2-nistp256",
+        "ansible_ssh_host_key_ed25519_public": "AAAAC3NzaC1lZDI1NTE5AAAAIDTwpnWmYt1J/kEkwLIakQpum3Ga2zuKUgAFrEdY3o+m",
+        "ansible_ssh_host_key_ed25519_public_keytype": "ssh-ed25519",
+        "ansible_ssh_host_key_rsa_public": "AAAAB3NzaC1yc2EAAAADAQABAAABgQD1Uq+UAouW0oxgND1QM77X9AZaW2Oc238krACQEiCd4p6LoxSEAVr8Og6zPA6ftZeSFu1tVFTwqwsWmjpAGqkEXsnyJ/Dj46Jsg8B7ivB55V/7JudGr9YO9E9iPkxSqym6KiCJUeziBHuEwlURily2NDGtwFKql6yNX/IX870L6Bq57Cm8lky2J3gOWROHhMga2uD5MEr6GgYxovWWW6kJyMW8kUfhaFPDkDaod+hirRJNjTUhZ4jphKKdGWDYjTGCY1wOZcUrxa/jl+RIlj0E6ze8wDLTi1IiZERlL/XGuFRVbH295eQ66sHe2xrNRhAEpqyTqlF7O/FROBBgn7cQ1wAGk/W1dCMlcT6iuPKa/D2bK9Ple1Z8lb3NpE8ZNG2ExziOlOC2cGggteQ+DTHfB7U4zfSGY65VeJmAbqLQXr9PbPMDt954RIloEetmy/0nWaYt1hm3VOKXo+BefZB4Z3YnYrMK77n26GKWYrP1WPx6V7IT0OirXsByYNlVX+8=",
+        "ansible_ssh_host_key_rsa_public_keytype": "ssh-rsa",
+        "ansible_swapfree_mb": 4095,
+        "ansible_swaptotal_mb": 4095,
+        "ansible_system": "Linux",
+        "ansible_system_capabilities": [
+            ""
+        ],
+        "ansible_system_capabilities_enforced": "True",
+        "ansible_system_vendor": "GIGABYTE",
+        "ansible_systemd": {
+            "features": "+PAM +AUDIT +SELINUX +APPARMOR +IMA +IPE +SMACK +SECCOMP +GCRYPT -GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +KMOD +LIBCRYPTSETUP +LIBCRYPTSETUP_PLUGINS +LIBFDISK +PCRE2 +PWQUALITY +P11KIT +QRENCODE +TPM2 +BZIP2 +LZ4 +XZ +ZLIB +ZSTD +BPF_FRAMEWORK +BTF -XKBCOMMON -UTMP +SYSVINIT +LIBARCHIVE",
+            "version": 259
+        },
+        "ansible_uptime_seconds": 414782,
+        "ansible_user_dir": "/home/jeremy",
+        "ansible_user_gecos": "jeremy Graslie",
+        "ansible_user_gid": 1000,
+        "ansible_user_id": "jeremy",
+        "ansible_user_shell": "/bin/bash",
+        "ansible_user_uid": 1000,
+        "ansible_userspace_architecture": "x86_64",
+        "ansible_userspace_bits": "64",
+        "ansible_virtualization_role": "host",
+        "ansible_virtualization_tech_guest": [],
+        "ansible_virtualization_tech_host": [
+            "kvm"
+        ],
+        "ansible_virtualization_type": "kvm",
+        "ansible_wlp1s0": {
+            "active": false,
+            "device": "wlp1s0",
+            "features": {
+                "esp_hw_offload": "off [fixed]",
+                "esp_tx_csum_hw_offload": "off [fixed]",
+                "generic_receive_offload": "on",
+                "generic_segmentation_offload": "on",
+                "highdma": "on",
+                "hsr_dup_offload": "off [fixed]",
+                "hsr_fwd_offload": "off [fixed]",
+                "hsr_tag_ins_offload": "off [fixed]",
+                "hsr_tag_rm_offload": "off [fixed]",
+                "hw_tc_offload": "off [fixed]",
+                "l2_fwd_offload": "off [fixed]",
+                "large_receive_offload": "off [fixed]",
+                "loopback": "off [fixed]",
+                "macsec_hw_offload": "off [fixed]",
+                "ntuple_filters": "off [fixed]",
+                "receive_hashing": "off [fixed]",
+                "rx_all": "off [fixed]",
+                "rx_checksumming": "off [fixed]",
+                "rx_fcs": "off [fixed]",
+                "rx_gro_hw": "off [fixed]",
+                "rx_gro_list": "off",
+                "rx_udp_gro_forwarding": "off",
+                "rx_udp_tunnel_port_offload": "off [fixed]",
+                "rx_vlan_filter": "off [fixed]",
+                "rx_vlan_offload": "off [fixed]",
+                "rx_vlan_stag_filter": "off [fixed]",
+                "rx_vlan_stag_hw_parse": "off [fixed]",
+                "scatter_gather": "on",
+                "tcp_segmentation_offload": "off",
+                "tls_hw_record": "off [fixed]",
+                "tls_hw_rx_offload": "off [fixed]",
+                "tls_hw_tx_offload": "off [fixed]",
+                "tx_checksum_fcoe_crc": "off [fixed]",
+                "tx_checksum_ip_generic": "off [fixed]",
+                "tx_checksum_ipv4": "off [fixed]",
+                "tx_checksum_ipv6": "off [fixed]",
+                "tx_checksum_sctp": "off [fixed]",
+                "tx_checksumming": "off",
+                "tx_esp_segmentation": "off [fixed]",
+                "tx_fcoe_segmentation": "off [fixed]",
+                "tx_gre_csum_segmentation": "off [fixed]",
+                "tx_gre_segmentation": "off [fixed]",
+                "tx_gso_list": "off [fixed]",
+                "tx_gso_partial": "off [fixed]",
+                "tx_gso_robust": "off [fixed]",
+                "tx_ipxip4_segmentation": "off [fixed]",
+                "tx_ipxip6_segmentation": "off [fixed]",
+                "tx_nocache_copy": "off",
+                "tx_scatter_gather": "on",
+                "tx_scatter_gather_fraglist": "off [fixed]",
+                "tx_sctp_segmentation": "off [fixed]",
+                "tx_tcp6_segmentation": "off [fixed]",
+                "tx_tcp_accecn_segmentation": "off [fixed]",
+                "tx_tcp_ecn_segmentation": "off [fixed]",
+                "tx_tcp_mangleid_segmentation": "off [fixed]",
+                "tx_tcp_segmentation": "off [fixed]",
+                "tx_tunnel_remcsum_segmentation": "off [fixed]",
+                "tx_udp_segmentation": "off [fixed]",
+                "tx_udp_tnl_csum_segmentation": "off [fixed]",
+                "tx_udp_tnl_segmentation": "off [fixed]",
+                "tx_vlan_offload": "off [fixed]",
+                "tx_vlan_stag_hw_insert": "off [fixed]",
+                "vlan_challenged": "off [fixed]"
+            },
+            "hw_timestamp_filters": [],
+            "macaddress": "e0:94:67:36:30:a8",
+            "module": "iwlwifi",
+            "mtu": 1500,
+            "pciid": "0000:01:00.0",
+            "promisc": false,
+            "timestamping": [],
+            "type": "ether"
+        },
+        "gather_subset": [
+            "all"
+        ],
+        "module_setup": true
+    },
+    "changed": false
+}
+2026-11-04 20:56:04,511 p=6647 u=jeremygraslie n=ansible INFO| PLAYBOOK RECAP ***************************************************************************************************************************************************************************************
+2026-11-04 20:56:04,511 p=6647 u=jeremygraslie n=ansible INFO| Playbook run took 0 days, 0 hours, 0 minutes, 1 seconds
+
+2026-11-04 20:56:04,511 p=6647 u=jeremygraslie n=ansible INFO| TASKS RECAP ******************************************************************************************************************************************************************************************
+2026-11-04 20:56:04,511 p=6647 u=jeremygraslie n=ansible INFO| Wednesday 04 November 2026  20:56:04 -0600 (0:00:01.490)       0:00:01.506 **** 
+2026-11-04 20:56:04,511 p=6647 u=jeremygraslie n=ansible INFO| =============================================================================== 
+2026-11-04 20:56:04,511 p=6647 u=jeremygraslie n=ansible INFO| gather_facts ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 1.49s
+ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2026-11-05 01:28:52,830 p=7891 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 01:33:44,777 p=9397 u=jeremygraslie n=ansible INFO| ansible [core 2.21.5]
+  config file = /Users/jeremygraslie/GitHub/ansible/ansible.cfg
+  configured module search path = ['/Users/jeremygraslie/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /opt/homebrew/Cellar/ansible/14.5.0_2/libexec/lib/python3.15/site-packages/ansible
+  ansible collection location = /Users/jeremygraslie/.ansible/collections:/usr/share/ansible/collections
+  executable location = /opt/homebrew/bin/ansible
+  python version = 3.15.2 (main, Oct 25 2026, 16:57:51) [Clang 21.0.0 (clang-2100.3.34.2)] (/opt/homebrew/Cellar/ansible/14.5.0_2/libexec/bin/python)
+  jinja version = 3.1.6
+  pyyaml version = 6.0.3 (with libyaml v0.2.5)
+2026-11-05 01:33:44,778 p=9397 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 01:33:44,836 p=9397 u=jeremygraslie n=ansible INFO| redirecting (type: callback) ansible.builtin.timer to ansible.posix.timer
+2026-11-05 01:33:44,837 p=9397 u=jeremygraslie n=ansible INFO| redirecting (type: callback) ansible.builtin.profile_tasks to ansible.posix.profile_tasks
+2026-11-05 01:33:44,838 p=9397 u=jeremygraslie n=ansible INFO| redirecting (type: callback) ansible.builtin.log_plays to community.general.log_plays
+2026-11-05 01:33:44,845 p=9397 u=jeremygraslie n=ansible INFO| Skipping callback 'default', as we already have a stdout callback.
+2026-11-05 01:33:44,846 p=9397 u=jeremygraslie n=ansible INFO| Skipping callback 'oneline', as we already have a stdout callback.
+2026-11-05 01:33:44,847 p=9397 u=jeremygraslie n=ansible WARNING| [WARNING]: Failed to load callback plugin 'log_plays': Unable to create local directories '/private/var/log/ansible/hosts': [Errno 13] Permission denied: b'/private/var/log/ansible'
+
+2026-11-05 01:33:44,855 p=9397 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  01:33:44 -0600 (0:00:00.017)       0:00:00.017 ***** 
+2026-11-05 01:33:47,327 p=9397 u=jeremygraslie n=ansible INFO| thor | SUCCESS => {
+    "ansible_facts": {
+        "ansible_all_ipv4_addresses": [
+            "172.20.6.202"
+        ],
+        "ansible_all_ipv6_addresses": [
+            "fe80::428d:5cff:fe6d:cf42"
+        ],
+        "ansible_apparmor": {
+            "status": "enabled"
+        },
+        "ansible_architecture": "x86_64",
+        "ansible_bios_date": "10/20/2015",
+        "ansible_bios_vendor": "American Megatrends Inc.",
+        "ansible_bios_version": "F3",
+        "ansible_board_asset_tag": "Default string",
+        "ansible_board_name": "MKLP5AP-00",
+        "ansible_board_serial": "NA",
+        "ansible_board_vendor": "GIGABYTE",
+        "ansible_board_version": "1.x",
+        "ansible_chassis_asset_tag": "Default string",
+        "ansible_chassis_serial": "NA",
+        "ansible_chassis_vendor": "Default string",
+        "ansible_chassis_version": "Default string",
+        "ansible_cmdline": {
+            "BOOT_IMAGE": "/vmlinuz-7.0.0-42-generic",
+            "crashkernel": "2G-4G:320M,4G-32G:512M,32G-64G:1024M,64G-128G:2048M,128G-:4096M",
+            "ro": true,
+            "root": "/dev/mapper/ubuntu--vg-ubuntu--lv"
+        },
+        "ansible_date_time": {
+            "date": "2026-11-05",
+            "day": "05",
+            "epoch": "1793864026",
+            "epoch_int": "1793864026",
+            "hour": "07",
+            "iso8601": "2026-11-05T07:33:46Z",
+            "iso8601_basic": "20261105T073346696078",
+            "iso8601_basic_short": "20261105T073346",
+            "iso8601_micro": "2026-11-05T07:33:46.696078Z",
+            "minute": "33",
+            "month": "11",
+            "second": "46",
+            "time": "07:33:46",
+            "tz": "UTC",
+            "tz_dst": "UTC",
+            "tz_offset": "+0000",
+            "weekday": "Thursday",
+            "weekday_number": "4",
+            "weeknumber": "44",
+            "year": "2026"
+        },
+        "ansible_default_ipv4": {
+            "address": "172.20.6.202",
+            "alias": "enp0s31f6",
+            "broadcast": "",
+            "gateway": "172.20.1.1",
+            "interface": "enp0s31f6",
+            "macaddress": "40:8d:5c:6d:cf:42",
+            "mtu": 1500,
+            "netmask": "255.255.0.0",
+            "network": "172.20.0.0",
+            "prefix": "16",
+            "type": "ether"
+        },
+        "ansible_default_ipv6": {},
+        "ansible_device_links": {
+            "ids": {
+                "dm-0": [
+                    "dm-name-ubuntu--vg-ubuntu--lv",
+                    "dm-uuid-LVM-6ZfLn2ke6Zt3jS4XToY7Y5v3PBuQj3bZQ7kwg5kcoZ3SoFjPZCgP8STFfxXatxqp"
+                ],
+                "sda": [
+                    "ata-Crucial_CT250MX200SSD4_162212DF0030",
+                    "scsi-3500a075112df0030",
+                    "wwn-0x500a075112df0030"
+                ],
+                "sda1": [
+                    "ata-Crucial_CT250MX200SSD4_162212DF0030-part1",
+                    "scsi-3500a075112df0030-part1",
+                    "wwn-0x500a075112df0030-part1"
+                ],
+                "sda2": [
+                    "ata-Crucial_CT250MX200SSD4_162212DF0030-part2",
+                    "scsi-3500a075112df0030-part2",
+                    "wwn-0x500a075112df0030-part2"
+                ],
+                "sda3": [
+                    "ata-Crucial_CT250MX200SSD4_162212DF0030-part3",
+                    "lvm-pv-uuid-fOUz8h-t0P1-CQmS-w12r-dmsi-gcrh-Mnb6PW",
+                    "scsi-3500a075112df0030-part3",
+                    "wwn-0x500a075112df0030-part3"
+                ]
+            },
+            "labels": {},
+            "masters": {
+                "sda3": [
+                    "dm-0"
+                ]
+            },
+            "uuids": {
+                "dm-0": [
+                    "57fab5dc-27ef-40f1-af11-c5957530971e"
+                ],
+                "sda1": [
+                    "D08B-CB25"
+                ],
+                "sda2": [
+                    "e90d320c-025b-4f47-92e1-0721e857a64c"
+                ]
+            }
+        },
+        "ansible_devices": {
+            "dm-0": {
+                "holders": [],
+                "host": "",
+                "links": {
+                    "ids": [
+                        "dm-name-ubuntu--vg-ubuntu--lv",
+                        "dm-uuid-LVM-6ZfLn2ke6Zt3jS4XToY7Y5v3PBuQj3bZQ7kwg5kcoZ3SoFjPZCgP8STFfxXatxqp"
+                    ],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": [
+                        "57fab5dc-27ef-40f1-af11-c5957530971e"
+                    ]
+                },
+                "model": null,
+                "partitions": {},
+                "removable": "0",
+                "rotational": "0",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "",
+                "sectors": 209715200,
+                "sectorsize": "512",
+                "size": "100.00 GB",
+                "support_discard": "4096",
+                "vendor": null,
+                "virtual": 1
+            },
+            "loop0": {
+                "holders": [],
+                "host": "",
+                "links": {
+                    "ids": [],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": []
+                },
+                "model": null,
+                "partitions": {},
+                "removable": "0",
+                "rotational": "0",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "none",
+                "sectors": 136816,
+                "sectorsize": "512",
+                "size": "66.80 MB",
+                "support_discard": "4096",
+                "vendor": null,
+                "virtual": 1
+            },
+            "loop1": {
+                "holders": [],
+                "host": "",
+                "links": {
+                    "ids": [],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": []
+                },
+                "model": null,
+                "partitions": {},
+                "removable": "0",
+                "rotational": "0",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "none",
+                "sectors": 3088,
+                "sectorsize": "512",
+                "size": "1.51 MB",
+                "support_discard": "4096",
+                "vendor": null,
+                "virtual": 1
+            },
+            "loop2": {
+                "holders": [],
+                "host": "",
+                "links": {
+                    "ids": [],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": []
+                },
+                "model": null,
+                "partitions": {},
+                "removable": "0",
+                "rotational": "0",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "none",
+                "sectors": 3088,
+                "sectorsize": "512",
+                "size": "1.51 MB",
+                "support_discard": "4096",
+                "vendor": null,
+                "virtual": 1
+            },
+            "loop3": {
+                "holders": [],
+                "host": "",
+                "links": {
+                    "ids": [],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": []
+                },
+                "model": null,
+                "partitions": {},
+                "removable": "0",
+                "rotational": "0",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "none",
+                "sectors": 102608,
+                "sectorsize": "512",
+                "size": "50.10 MB",
+                "support_discard": "4096",
+                "vendor": null,
+                "virtual": 1
+            },
+            "loop4": {
+                "holders": [],
+                "host": "",
+                "links": {
+                    "ids": [],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": []
+                },
+                "model": null,
+                "partitions": {},
+                "removable": "0",
+                "rotational": "0",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "none",
+                "sectors": 136784,
+                "sectorsize": "512",
+                "size": "66.79 MB",
+                "support_discard": "4096",
+                "vendor": null,
+                "virtual": 1
+            },
+            "loop5": {
+                "holders": [],
+                "host": "",
+                "links": {
+                    "ids": [],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": []
+                },
+                "model": null,
+                "partitions": {},
+                "removable": "0",
+                "rotational": "0",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "none",
+                "sectors": 0,
+                "sectorsize": "512",
+                "size": "0.00 Bytes",
+                "support_discard": "0",
+                "vendor": null,
+                "virtual": 1
+            },
+            "loop6": {
+                "holders": [],
+                "host": "",
+                "links": {
+                    "ids": [],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": []
+                },
+                "model": null,
+                "partitions": {},
+                "removable": "0",
+                "rotational": "0",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "none",
+                "sectors": 0,
+                "sectorsize": "512",
+                "size": "0.00 Bytes",
+                "support_discard": "0",
+                "vendor": null,
+                "virtual": 1
+            },
+            "loop7": {
+                "holders": [],
+                "host": "",
+                "links": {
+                    "ids": [],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": []
+                },
+                "model": null,
+                "partitions": {},
+                "removable": "0",
+                "rotational": "0",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "none",
+                "sectors": 0,
+                "sectorsize": "512",
+                "size": "0.00 Bytes",
+                "support_discard": "0",
+                "vendor": null,
+                "virtual": 1
+            },
+            "sda": {
+                "holders": [],
+                "host": "SATA controller: Intel Corporation Sunrise Point-LP SATA Controller [AHCI mode] (rev 21)",
+                "links": {
+                    "ids": [
+                        "ata-Crucial_CT250MX200SSD4_162212DF0030",
+                        "scsi-3500a075112df0030",
+                        "wwn-0x500a075112df0030"
+                    ],
+                    "labels": [],
+                    "masters": [],
+                    "uuids": []
+                },
+                "model": "Crucial_CT250MX2",
+                "partitions": {
+                    "sda1": {
+                        "holders": [],
+                        "links": {
+                            "ids": [
+                                "ata-Crucial_CT250MX200SSD4_162212DF0030-part1",
+                                "scsi-3500a075112df0030-part1",
+                                "wwn-0x500a075112df0030-part1"
+                            ],
+                            "labels": [],
+                            "masters": [],
+                            "uuids": [
+                                "D08B-CB25"
+                            ]
+                        },
+                        "sectors": 2201600,
+                        "sectorsize": 512,
+                        "size": "1.05 GB",
+                        "start": "2048",
+                        "uuid": "D08B-CB25"
+                    },
+                    "sda2": {
+                        "holders": [],
+                        "links": {
+                            "ids": [
+                                "ata-Crucial_CT250MX200SSD4_162212DF0030-part2",
+                                "scsi-3500a075112df0030-part2",
+                                "wwn-0x500a075112df0030-part2"
+                            ],
+                            "labels": [],
+                            "masters": [],
+                            "uuids": [
+                                "e90d320c-025b-4f47-92e1-0721e857a64c"
+                            ]
+                        },
+                        "sectors": 4194304,
+                        "sectorsize": 512,
+                        "size": "2.00 GB",
+                        "start": "2203648",
+                        "uuid": "e90d320c-025b-4f47-92e1-0721e857a64c"
+                    },
+                    "sda3": {
+                        "holders": [
+                            "ubuntu--vg-ubuntu--lv"
+                        ],
+                        "links": {
+                            "ids": [
+                                "ata-Crucial_CT250MX200SSD4_162212DF0030-part3",
+                                "lvm-pv-uuid-fOUz8h-t0P1-CQmS-w12r-dmsi-gcrh-Mnb6PW",
+                                "scsi-3500a075112df0030-part3",
+                                "wwn-0x500a075112df0030-part3"
+                            ],
+                            "labels": [],
+                            "masters": [
+                                "dm-0"
+                            ],
+                            "uuids": []
+                        },
+                        "sectors": 481996800,
+                        "sectorsize": 512,
+                        "size": "229.83 GB",
+                        "start": "6397952",
+                        "uuid": null
+                    }
+                },
+                "removable": "0",
+                "rotational": "0",
+                "sas_address": null,
+                "sas_device_handle": null,
+                "scheduler_mode": "mq-deadline",
+                "sectors": 488397168,
+                "sectorsize": "512",
+                "size": "232.89 GB",
+                "support_discard": "4096",
+                "vendor": "ATA",
+                "virtual": 1,
+                "wwn": "0x500a075112df0030"
+            }
+        },
+        "ansible_distribution": "Ubuntu",
+        "ansible_distribution_file_parsed": true,
+        "ansible_distribution_file_path": "/etc/os-release",
+        "ansible_distribution_file_variety": "Debian",
+        "ansible_distribution_major_version": "26",
+        "ansible_distribution_release": "resolute",
+        "ansible_distribution_version": "26.04",
+        "ansible_dns": {
+            "nameservers": [
+                "127.0.0.53"
+            ],
+            "options": {
+                "edns0": true,
+                "trust-ad": true
+            },
+            "search": [
+                "."
+            ]
+        },
+        "ansible_domain": "",
+        "ansible_effective_group_id": 1000,
+        "ansible_effective_user_id": 1000,
+        "ansible_enp0s31f6": {
+            "active": true,
+            "device": "enp0s31f6",
+            "features": {
+                "esp_hw_offload": "off [fixed]",
+                "esp_tx_csum_hw_offload": "off [fixed]",
+                "generic_receive_offload": "on",
+                "generic_segmentation_offload": "on",
+                "highdma": "on [fixed]",
+                "hsr_dup_offload": "off [fixed]",
+                "hsr_fwd_offload": "off [fixed]",
+                "hsr_tag_ins_offload": "off [fixed]",
+                "hsr_tag_rm_offload": "off [fixed]",
+                "hw_tc_offload": "off [fixed]",
+                "l2_fwd_offload": "off [fixed]",
+                "large_receive_offload": "off [fixed]",
+                "loopback": "off [fixed]",
+                "macsec_hw_offload": "off [fixed]",
+                "ntuple_filters": "off [fixed]",
+                "receive_hashing": "on",
+                "rx_all": "off",
+                "rx_checksumming": "on",
+                "rx_fcs": "off",
+                "rx_gro_hw": "off [fixed]",
+                "rx_gro_list": "off",
+                "rx_udp_gro_forwarding": "off",
+                "rx_udp_tunnel_port_offload": "off [fixed]",
+                "rx_vlan_filter": "off [fixed]",
+                "rx_vlan_offload": "on",
+                "rx_vlan_stag_filter": "off [fixed]",
+                "rx_vlan_stag_hw_parse": "off [fixed]",
+                "scatter_gather": "on",
+                "tcp_segmentation_offload": "off",
+                "tls_hw_record": "off [fixed]",
+                "tls_hw_rx_offload": "off [fixed]",
+                "tls_hw_tx_offload": "off [fixed]",
+                "tx_checksum_fcoe_crc": "off [fixed]",
+                "tx_checksum_ip_generic": "on",
+                "tx_checksum_ipv4": "off [fixed]",
+                "tx_checksum_ipv6": "off [fixed]",
+                "tx_checksum_sctp": "off [fixed]",
+                "tx_checksumming": "on",
+                "tx_esp_segmentation": "off [fixed]",
+                "tx_fcoe_segmentation": "off [fixed]",
+                "tx_gre_csum_segmentation": "off [fixed]",
+                "tx_gre_segmentation": "off [fixed]",
+                "tx_gso_list": "off [fixed]",
+                "tx_gso_partial": "off [fixed]",
+                "tx_gso_robust": "off [fixed]",
+                "tx_ipxip4_segmentation": "off [fixed]",
+                "tx_ipxip6_segmentation": "off [fixed]",
+                "tx_nocache_copy": "off",
+                "tx_scatter_gather": "on",
+                "tx_scatter_gather_fraglist": "off [fixed]",
+                "tx_sctp_segmentation": "off [fixed]",
+                "tx_tcp6_segmentation": "off [fixed]",
+                "tx_tcp_accecn_segmentation": "off [fixed]",
+                "tx_tcp_ecn_segmentation": "off [fixed]",
+                "tx_tcp_mangleid_segmentation": "off [fixed]",
+                "tx_tcp_segmentation": "off [fixed]",
+                "tx_tunnel_remcsum_segmentation": "off [fixed]",
+                "tx_udp_segmentation": "off [fixed]",
+                "tx_udp_tnl_csum_segmentation": "off [fixed]",
+                "tx_udp_tnl_segmentation": "off [fixed]",
+                "tx_vlan_offload": "on",
+                "tx_vlan_stag_hw_insert": "off [fixed]",
+                "vlan_challenged": "off [fixed]"
+            },
+            "hw_timestamp_filters": [],
+            "ipv4": {
+                "address": "172.20.6.202",
+                "broadcast": "",
+                "netmask": "255.255.0.0",
+                "network": "172.20.0.0",
+                "prefix": "16"
+            },
+            "ipv6": [
+                {
+                    "address": "fe80::428d:5cff:fe6d:cf42",
+                    "prefix": "64",
+                    "scope": "link"
+                }
+            ],
+            "macaddress": "40:8d:5c:6d:cf:42",
+            "module": "e1000e",
+            "mtu": 1500,
+            "pciid": "0000:00:1f.6",
+            "promisc": false,
+            "speed": 1000,
+            "timestamping": [],
+            "type": "ether"
+        },
+        "ansible_env": {
+            "DBUS_SESSION_BUS_ADDRESS": "unix:path=/run/user/1000/bus",
+            "HOME": "/home/jeremy",
+            "LANG": "en_US.UTF-8",
+            "LC_TERMINAL": "iTerm2",
+            "LC_TERMINAL_VERSION": "3.7.6",
+            "LOGNAME": "jeremy",
+            "PATH": "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin",
+            "PWD": "/home/jeremy",
+            "SHELL": "/bin/bash",
+            "SHLVL": "0",
+            "SSH_CLIENT": "172.20.8.166 54686 22",
+            "SSH_CONNECTION": "172.20.8.166 54686 172.20.6.202 22",
+            "SSH_TTY": "/dev/pts/0",
+            "TERM": "xterm-256color",
+            "USER": "jeremy",
+            "XDG_RUNTIME_DIR": "/run/user/1000",
+            "XDG_SESSION_CLASS": "user",
+            "XDG_SESSION_ID": "151",
+            "XDG_SESSION_TYPE": "tty",
+            "_": "/bin/sh"
+        },
+        "ansible_fibre_channel_wwn": [],
+        "ansible_fips": false,
+        "ansible_flags": [
+            "fpu",
+            "vme",
+            "de",
+            "pse",
+            "tsc",
+            "msr",
+            "pae",
+            "mce",
+            "cx8",
+            "apic",
+            "sep",
+            "mtrr",
+            "pge",
+            "mca",
+            "cmov",
+            "pat",
+            "pse36",
+            "clflush",
+            "dts",
+            "acpi",
+            "mmx",
+            "fxsr",
+            "sse",
+            "sse2",
+            "ss",
+            "ht",
+            "tm",
+            "pbe",
+            "syscall",
+            "nx",
+            "pdpe1gb",
+            "rdtscp",
+            "lm",
+            "constant_tsc",
+            "art",
+            "arch_perfmon",
+            "pebs",
+            "bts",
+            "rep_good",
+            "nopl",
+            "xtopology",
+            "nonstop_tsc",
+            "cpuid",
+            "aperfmperf",
+            "pni",
+            "pclmulqdq",
+            "dtes64",
+            "monitor",
+            "ds_cpl",
+            "vmx",
+            "est",
+            "tm2",
+            "ssse3",
+            "sdbg",
+            "fma",
+            "cx16",
+            "xtpr",
+            "pdcm",
+            "pcid",
+            "sse4_1",
+            "sse4_2",
+            "x2apic",
+            "movbe",
+            "popcnt",
+            "tsc_deadline_timer",
+            "aes",
+            "xsave",
+            "avx",
+            "f16c",
+            "rdrand",
+            "lahf_lm",
+            "abm",
+            "3dnowprefetch",
+            "cpuid_fault",
+            "epb",
+            "pti",
+            "ssbd",
+            "ibrs",
+            "ibpb",
+            "stibp",
+            "tpr_shadow",
+            "flexpriority",
+            "ept",
+            "vpid",
+            "ept_ad",
+            "fsgsbase",
+            "tsc_adjust",
+            "bmi1",
+            "avx2",
+            "smep",
+            "bmi2",
+            "erms",
+            "invpcid",
+            "mpx",
+            "rdseed",
+            "adx",
+            "smap",
+            "clflushopt",
+            "intel_pt",
+            "xsaveopt",
+            "xsavec",
+            "xgetbv1",
+            "xsaves",
+            "dtherm",
+            "ida",
+            "arat",
+            "pln",
+            "pts",
+            "hwp",
+            "hwp_notify",
+            "hwp_act_window",
+            "hwp_epp",
+            "vnmi",
+            "md_clear",
+            "flush_l1d",
+            "arch_capabilities"
+        ],
+        "ansible_form_factor": "Desktop",
+        "ansible_fqdn": "thor",
+        "ansible_hostname": "thor",
+        "ansible_hostnqn": "",
+        "ansible_interfaces": [
+            "enp0s31f6",
+            "wlp1s0",
+            "lo"
+        ],
+        "ansible_is_chroot": false,
+        "ansible_iscsi_iqn": "",
+        "ansible_kernel": "7.0.0-42-generic",
+        "ansible_kernel_version": "#42-Ubuntu SMP PREEMPT_DYNAMIC Thu Oct 15 08:06:44 UTC 2026",
+        "ansible_lo": {
+            "active": true,
+            "device": "lo",
+            "features": {
+                "esp_hw_offload": "off [fixed]",
+                "esp_tx_csum_hw_offload": "off [fixed]",
+                "generic_receive_offload": "on",
+                "generic_segmentation_offload": "on",
+                "highdma": "on [fixed]",
+                "hsr_dup_offload": "off [fixed]",
+                "hsr_fwd_offload": "off [fixed]",
+                "hsr_tag_ins_offload": "off [fixed]",
+                "hsr_tag_rm_offload": "off [fixed]",
+                "hw_tc_offload": "off [fixed]",
+                "l2_fwd_offload": "off [fixed]",
+                "large_receive_offload": "off [fixed]",
+                "loopback": "on [fixed]",
+                "macsec_hw_offload": "off [fixed]",
+                "ntuple_filters": "off [fixed]",
+                "receive_hashing": "off [fixed]",
+                "rx_all": "off [fixed]",
+                "rx_checksumming": "on [fixed]",
+                "rx_fcs": "off [fixed]",
+                "rx_gro_hw": "off [fixed]",
+                "rx_gro_list": "off",
+                "rx_udp_gro_forwarding": "off",
+                "rx_udp_tunnel_port_offload": "off [fixed]",
+                "rx_vlan_filter": "off [fixed]",
+                "rx_vlan_offload": "off [fixed]",
+                "rx_vlan_stag_filter": "off [fixed]",
+                "rx_vlan_stag_hw_parse": "off [fixed]",
+                "scatter_gather": "on",
+                "tcp_segmentation_offload": "on",
+                "tls_hw_record": "off [fixed]",
+                "tls_hw_rx_offload": "off [fixed]",
+                "tls_hw_tx_offload": "off [fixed]",
+                "tx_checksum_fcoe_crc": "off [fixed]",
+                "tx_checksum_ip_generic": "on [fixed]",
+                "tx_checksum_ipv4": "off [fixed]",
+                "tx_checksum_ipv6": "off [fixed]",
+                "tx_checksum_sctp": "on [fixed]",
+                "tx_checksumming": "on",
+                "tx_esp_segmentation": "off [fixed]",
+                "tx_fcoe_segmentation": "off [fixed]",
+                "tx_gre_csum_segmentation": "off [fixed]",
+                "tx_gre_segmentation": "off [fixed]",
+                "tx_gso_list": "on",
+                "tx_gso_partial": "off [fixed]",
+                "tx_gso_robust": "off [fixed]",
+                "tx_ipxip4_segmentation": "off [fixed]",
+                "tx_ipxip6_segmentation": "off [fixed]",
+                "tx_nocache_copy": "off [fixed]",
+                "tx_scatter_gather": "on [fixed]",
+                "tx_scatter_gather_fraglist": "on [fixed]",
+                "tx_sctp_segmentation": "on",
+                "tx_tcp6_segmentation": "on",
+                "tx_tcp_accecn_segmentation": "on",
+                "tx_tcp_ecn_segmentation": "on",
+                "tx_tcp_mangleid_segmentation": "on",
+                "tx_tcp_segmentation": "on",
+                "tx_tunnel_remcsum_segmentation": "off [fixed]",
+                "tx_udp_segmentation": "on",
+                "tx_udp_tnl_csum_segmentation": "off [fixed]",
+                "tx_udp_tnl_segmentation": "off [fixed]",
+                "tx_vlan_offload": "off [fixed]",
+                "tx_vlan_stag_hw_insert": "off [fixed]",
+                "vlan_challenged": "on [fixed]"
+            },
+            "hw_timestamp_filters": [],
+            "ipv4": {
+                "address": "127.0.0.1",
+                "broadcast": "",
+                "netmask": "255.0.0.0",
+                "network": "127.0.0.0",
+                "prefix": "8"
+            },
+            "ipv6": [
+                {
+                    "address": "::1",
+                    "prefix": "128",
+                    "scope": "host"
+                }
+            ],
+            "mtu": 65536,
+            "promisc": false,
+            "timestamping": [],
+            "type": "loopback"
+        },
+        "ansible_loadavg": {
+            "15m": 0.0,
+            "1m": 0.0,
+            "5m": 0.0
+        },
+        "ansible_local": {},
+        "ansible_locally_reachable_ips": {
+            "ipv4": [
+                "127.0.0.0/8",
+                "127.0.0.1",
+                "172.20.6.202"
+            ],
+            "ipv6": [
+                "::1",
+                "fe80::428d:5cff:fe6d:cf42"
+            ]
+        },
+        "ansible_lsb": {
+            "codename": "resolute",
+            "description": "Ubuntu 26.04.1 LTS",
+            "id": "Ubuntu",
+            "major_release": "26",
+            "release": "26.04"
+        },
+        "ansible_lvm": "N/A",
+        "ansible_machine": "x86_64",
+        "ansible_machine_id": "56bd3144ea0d4b509211ce44ab5c1375",
+        "ansible_memfree_mb": 14010,
+        "ansible_memory_mb": {
+            "nocache": {
+                "free": 14983,
+                "used": 407
+            },
+            "real": {
+                "free": 14010,
+                "total": 15390,
+                "used": 1380
+            },
+            "swap": {
+                "cached": 0,
+                "free": 4095,
+                "total": 4095,
+                "used": 0
+            }
+        },
+        "ansible_memtotal_mb": 15390,
+        "ansible_mounts": [
+            {
+                "block_available": 22471329,
+                "block_size": 4096,
+                "block_total": 25656558,
+                "block_used": 3185229,
+                "device": "/dev/mapper/ubuntu--vg-ubuntu--lv",
+                "dump": 0,
+                "fstype": "ext4",
+                "inode_available": 6443097,
+                "inode_total": 6553600,
+                "inode_used": 110503,
+                "mount": "/",
+                "options": "rw,relatime",
+                "passno": 0,
+                "size_available": 92042563584,
+                "size_total": 105089261568,
+                "uuid": "57fab5dc-27ef-40f1-af11-c5957530971e"
+            },
+            {
+                "block_available": 0,
+                "block_size": 131072,
+                "block_total": 535,
+                "block_used": 535,
+                "device": "/dev/loop0",
+                "dump": 0,
+                "fstype": "squashfs",
+                "inode_available": 0,
+                "inode_total": 10545,
+                "inode_used": 10545,
+                "mount": "/snap/core24/1643",
+                "options": "ro,nodev,relatime,errors=continue,threads=single",
+                "passno": 0,
+                "size_available": 0,
+                "size_total": 70123520,
+                "uuid": "N/A"
+            },
+            {
+                "block_available": 0,
+                "block_size": 131072,
+                "block_total": 13,
+                "block_used": 13,
+                "device": "/dev/loop2",
+                "dump": 0,
+                "fstype": "squashfs",
+                "inode_available": 0,
+                "inode_total": 88,
+                "inode_used": 88,
+                "mount": "/snap/hwctl/131",
+                "options": "ro,nodev,relatime,errors=continue,threads=single",
+                "passno": 0,
+                "size_available": 0,
+                "size_total": 1703936,
+                "uuid": "N/A"
+            },
+            {
+                "block_available": 0,
+                "block_size": 131072,
+                "block_total": 13,
+                "block_used": 13,
+                "device": "/dev/loop1",
+                "dump": 0,
+                "fstype": "squashfs",
+                "inode_available": 0,
+                "inode_total": 88,
+                "inode_used": 88,
+                "mount": "/snap/hwctl/123",
+                "options": "ro,nodev,relatime,errors=continue,threads=single",
+                "passno": 0,
+                "size_available": 0,
+                "size_total": 1703936,
+                "uuid": "N/A"
+            },
+            {
+                "block_available": 0,
+                "block_size": 131072,
+                "block_total": 401,
+                "block_used": 401,
+                "device": "/dev/loop3",
+                "dump": 0,
+                "fstype": "squashfs",
+                "inode_available": 0,
+                "inode_total": 610,
+                "inode_used": 610,
+                "mount": "/snap/snapd/27710",
+                "options": "ro,nodev,relatime,errors=continue,threads=single",
+                "passno": 0,
+                "size_available": 0,
+                "size_total": 52559872,
+                "uuid": "N/A"
+            },
+            {
+                "block_available": 443106,
+                "block_size": 4096,
+                "block_total": 498138,
+                "block_used": 55032,
+                "device": "/dev/sda2",
+                "dump": 0,
+                "fstype": "ext4",
+                "inode_available": 130738,
+                "inode_total": 131072,
+                "inode_used": 334,
+                "mount": "/boot",
+                "options": "rw,relatime",
+                "passno": 0,
+                "size_available": 1814962176,
+                "size_total": 2040373248,
+                "uuid": "e90d320c-025b-4f47-92e1-0721e857a64c"
+            },
+            {
+                "block_available": 273044,
+                "block_size": 4096,
+                "block_total": 274657,
+                "block_used": 1613,
+                "device": "/dev/sda1",
+                "dump": 0,
+                "fstype": "vfat",
+                "inode_available": 0,
+                "inode_total": 0,
+                "inode_used": 0,
+                "mount": "/boot/efi",
+                "options": "rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro",
+                "passno": 0,
+                "size_available": 1118388224,
+                "size_total": 1124995072,
+                "uuid": "D08B-CB25"
+            },
+            {
+                "block_available": 0,
+                "block_size": 131072,
+                "block_total": 535,
+                "block_used": 535,
+                "device": "/dev/loop4",
+                "dump": 0,
+                "fstype": "squashfs",
+                "inode_available": 0,
+                "inode_total": 10477,
+                "inode_used": 10477,
+                "mount": "/snap/core24/2124",
+                "options": "ro,nodev,relatime,errors=continue,threads=single",
+                "passno": 0,
+                "size_available": 0,
+                "size_total": 70123520,
+                "uuid": "N/A"
+            }
+        ],
+        "ansible_nodename": "thor",
+        "ansible_os_family": "Debian",
+        "ansible_pkg_mgr": "apt",
+        "ansible_proc_cmdline": {
+            "BOOT_IMAGE": "/vmlinuz-7.0.0-42-generic",
+            "crashkernel": "2G-4G:320M,4G-32G:512M,32G-64G:1024M,64G-128G:2048M,128G-:4096M",
+            "ro": true,
+            "root": "/dev/mapper/ubuntu--vg-ubuntu--lv"
+        },
+        "ansible_processor": [
+            "0",
+            "GenuineIntel",
+            "Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz",
+            "1",
+            "GenuineIntel",
+            "Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz",
+            "2",
+            "GenuineIntel",
+            "Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz",
+            "3",
+            "GenuineIntel",
+            "Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz"
+        ],
+        "ansible_processor_cores": 2,
+        "ansible_processor_count": 1,
+        "ansible_processor_nproc": 4,
+        "ansible_processor_threads_per_core": 2,
+        "ansible_processor_vcpus": 4,
+        "ansible_product_name": "GB-BSi5-6200",
+        "ansible_product_serial": "NA",
+        "ansible_product_uuid": "NA",
+        "ansible_product_version": "1.x",
+        "ansible_python": {
+            "executable": "/usr/bin/python3",
+            "has_sslcontext": true,
+            "type": "cpython",
+            "version": {
+                "major": 3,
+                "micro": 4,
+                "minor": 14,
+                "releaselevel": "final",
+                "serial": 0
+            },
+            "version_info": [
+                3,
+                14,
+                4,
+                "final",
+                0
+            ]
+        },
+        "ansible_python_version": "3.14.4",
+        "ansible_real_group_id": 1000,
+        "ansible_real_user_id": 1000,
+        "ansible_selinux": {
+            "status": "disabled"
+        },
+        "ansible_selinux_python_present": true,
+        "ansible_service_mgr": "systemd",
+        "ansible_ssh_host_key_ecdsa_public": "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBPr/yrA21jdrdTUUBmz1vaOnltiCPv02ZgIy3m7uUYpl/RsjQdkYXITJZ0PcTqr5dSI+FhMI1TLGuryBcehaIE4=",
+        "ansible_ssh_host_key_ecdsa_public_keytype": "ecdsa-sha2-nistp256",
+        "ansible_ssh_host_key_ed25519_public": "AAAAC3NzaC1lZDI1NTE5AAAAIDTwpnWmYt1J/kEkwLIakQpum3Ga2zuKUgAFrEdY3o+m",
+        "ansible_ssh_host_key_ed25519_public_keytype": "ssh-ed25519",
+        "ansible_ssh_host_key_rsa_public": "AAAAB3NzaC1yc2EAAAADAQABAAABgQD1Uq+UAouW0oxgND1QM77X9AZaW2Oc238krACQEiCd4p6LoxSEAVr8Og6zPA6ftZeSFu1tVFTwqwsWmjpAGqkEXsnyJ/Dj46Jsg8B7ivB55V/7JudGr9YO9E9iPkxSqym6KiCJUeziBHuEwlURily2NDGtwFKql6yNX/IX870L6Bq57Cm8lky2J3gOWROHhMga2uD5MEr6GgYxovWWW6kJyMW8kUfhaFPDkDaod+hirRJNjTUhZ4jphKKdGWDYjTGCY1wOZcUrxa/jl+RIlj0E6ze8wDLTi1IiZERlL/XGuFRVbH295eQ66sHe2xrNRhAEpqyTqlF7O/FROBBgn7cQ1wAGk/W1dCMlcT6iuPKa/D2bK9Ple1Z8lb3NpE8ZNG2ExziOlOC2cGggteQ+DTHfB7U4zfSGY65VeJmAbqLQXr9PbPMDt954RIloEetmy/0nWaYt1hm3VOKXo+BefZB4Z3YnYrMK77n26GKWYrP1WPx6V7IT0OirXsByYNlVX+8=",
+        "ansible_ssh_host_key_rsa_public_keytype": "ssh-rsa",
+        "ansible_swapfree_mb": 4095,
+        "ansible_swaptotal_mb": 4095,
+        "ansible_system": "Linux",
+        "ansible_system_capabilities": [
+            ""
+        ],
+        "ansible_system_capabilities_enforced": "True",
+        "ansible_system_vendor": "GIGABYTE",
+        "ansible_systemd": {
+            "features": "+PAM +AUDIT +SELINUX +APPARMOR +IMA +IPE +SMACK +SECCOMP +GCRYPT -GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +KMOD +LIBCRYPTSETUP +LIBCRYPTSETUP_PLUGINS +LIBFDISK +PCRE2 +PWQUALITY +P11KIT +QRENCODE +TPM2 +BZIP2 +LZ4 +XZ +ZLIB +ZSTD +BPF_FRAMEWORK +BTF -XKBCOMMON -UTMP +SYSVINIT +LIBARCHIVE",
+            "version": 259
+        },
+        "ansible_uptime_seconds": 431444,
+        "ansible_user_dir": "/home/jeremy",
+        "ansible_user_gecos": "jeremy Graslie",
+        "ansible_user_gid": 1000,
+        "ansible_user_id": "jeremy",
+        "ansible_user_shell": "/bin/bash",
+        "ansible_user_uid": 1000,
+        "ansible_userspace_architecture": "x86_64",
+        "ansible_userspace_bits": "64",
+        "ansible_virtualization_role": "host",
+        "ansible_virtualization_tech_guest": [],
+        "ansible_virtualization_tech_host": [
+            "kvm"
+        ],
+        "ansible_virtualization_type": "kvm",
+        "ansible_wlp1s0": {
+            "active": false,
+            "device": "wlp1s0",
+            "features": {
+                "esp_hw_offload": "off [fixed]",
+                "esp_tx_csum_hw_offload": "off [fixed]",
+                "generic_receive_offload": "on",
+                "generic_segmentation_offload": "on",
+                "highdma": "on",
+                "hsr_dup_offload": "off [fixed]",
+                "hsr_fwd_offload": "off [fixed]",
+                "hsr_tag_ins_offload": "off [fixed]",
+                "hsr_tag_rm_offload": "off [fixed]",
+                "hw_tc_offload": "off [fixed]",
+                "l2_fwd_offload": "off [fixed]",
+                "large_receive_offload": "off [fixed]",
+                "loopback": "off [fixed]",
+                "macsec_hw_offload": "off [fixed]",
+                "ntuple_filters": "off [fixed]",
+                "receive_hashing": "off [fixed]",
+                "rx_all": "off [fixed]",
+                "rx_checksumming": "off [fixed]",
+                "rx_fcs": "off [fixed]",
+                "rx_gro_hw": "off [fixed]",
+                "rx_gro_list": "off",
+                "rx_udp_gro_forwarding": "off",
+                "rx_udp_tunnel_port_offload": "off [fixed]",
+                "rx_vlan_filter": "off [fixed]",
+                "rx_vlan_offload": "off [fixed]",
+                "rx_vlan_stag_filter": "off [fixed]",
+                "rx_vlan_stag_hw_parse": "off [fixed]",
+                "scatter_gather": "on",
+                "tcp_segmentation_offload": "off",
+                "tls_hw_record": "off [fixed]",
+                "tls_hw_rx_offload": "off [fixed]",
+                "tls_hw_tx_offload": "off [fixed]",
+                "tx_checksum_fcoe_crc": "off [fixed]",
+                "tx_checksum_ip_generic": "off [fixed]",
+                "tx_checksum_ipv4": "off [fixed]",
+                "tx_checksum_ipv6": "off [fixed]",
+                "tx_checksum_sctp": "off [fixed]",
+                "tx_checksumming": "off",
+                "tx_esp_segmentation": "off [fixed]",
+                "tx_fcoe_segmentation": "off [fixed]",
+                "tx_gre_csum_segmentation": "off [fixed]",
+                "tx_gre_segmentation": "off [fixed]",
+                "tx_gso_list": "off [fixed]",
+                "tx_gso_partial": "off [fixed]",
+                "tx_gso_robust": "off [fixed]",
+                "tx_ipxip4_segmentation": "off [fixed]",
+                "tx_ipxip6_segmentation": "off [fixed]",
+                "tx_nocache_copy": "off",
+                "tx_scatter_gather": "on",
+                "tx_scatter_gather_fraglist": "off [fixed]",
+                "tx_sctp_segmentation": "off [fixed]",
+                "tx_tcp6_segmentation": "off [fixed]",
+                "tx_tcp_accecn_segmentation": "off [fixed]",
+                "tx_tcp_ecn_segmentation": "off [fixed]",
+                "tx_tcp_mangleid_segmentation": "off [fixed]",
+                "tx_tcp_segmentation": "off [fixed]",
+                "tx_tunnel_remcsum_segmentation": "off [fixed]",
+                "tx_udp_segmentation": "off [fixed]",
+                "tx_udp_tnl_csum_segmentation": "off [fixed]",
+                "tx_udp_tnl_segmentation": "off [fixed]",
+                "tx_vlan_offload": "off [fixed]",
+                "tx_vlan_stag_hw_insert": "off [fixed]",
+                "vlan_challenged": "off [fixed]"
+            },
+            "hw_timestamp_filters": [],
+            "macaddress": "e0:94:67:36:30:a8",
+            "module": "iwlwifi",
+            "mtu": 1500,
+            "pciid": "0000:01:00.0",
+            "promisc": false,
+            "timestamping": [],
+            "type": "ether"
+        },
+        "gather_subset": [
+            "all"
+        ],
+        "module_setup": true
+    },
+    "changed": false
+}
+2026-11-05 01:33:47,328 p=9397 u=jeremygraslie n=ansible INFO| PLAYBOOK RECAP ********************************************************************************************************************************
+2026-11-05 01:33:47,328 p=9397 u=jeremygraslie n=ansible INFO| Playbook run took 0 days, 0 hours, 0 minutes, 2 seconds
+
+2026-11-05 01:33:47,328 p=9397 u=jeremygraslie n=ansible INFO| TASKS RECAP ***********************************************************************************************************************************
+2026-11-05 01:33:47,328 p=9397 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  01:33:47 -0600 (0:00:02.473)       0:00:02.491 ***** 
+2026-11-05 01:33:47,328 p=9397 u=jeremygraslie n=ansible INFO| =============================================================================== 
+2026-11-05 01:33:47,329 p=9397 u=jeremygraslie n=ansible INFO| gather_facts --------------------------------------------------------------------------------------------------------------------------- 2.47s
+ ---------------------------------------------------------------------------------------------------------------------------------------------
+2026-11-05 01:33:58,297 p=9463 u=jeremygraslie n=ansible INFO| ansible [core 2.21.5]
+  config file = /Users/jeremygraslie/GitHub/ansible/ansible.cfg
+  configured module search path = ['/Users/jeremygraslie/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /opt/homebrew/Cellar/ansible/14.5.0_2/libexec/lib/python3.15/site-packages/ansible
+  ansible collection location = /Users/jeremygraslie/.ansible/collections:/usr/share/ansible/collections
+  executable location = /opt/homebrew/bin/ansible
+  python version = 3.15.2 (main, Oct 25 2026, 16:57:51) [Clang 21.0.0 (clang-2100.3.34.2)] (/opt/homebrew/Cellar/ansible/14.5.0_2/libexec/bin/python)
+  jinja version = 3.1.6
+  pyyaml version = 6.0.3 (with libyaml v0.2.5)
+2026-11-05 01:33:58,297 p=9463 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 01:33:58,348 p=9463 u=jeremygraslie n=ansible INFO| redirecting (type: callback) ansible.builtin.timer to ansible.posix.timer
+2026-11-05 01:33:58,349 p=9463 u=jeremygraslie n=ansible INFO| redirecting (type: callback) ansible.builtin.profile_tasks to ansible.posix.profile_tasks
+2026-11-05 01:33:58,349 p=9463 u=jeremygraslie n=ansible INFO| redirecting (type: callback) ansible.builtin.log_plays to community.general.log_plays
+2026-11-05 01:33:58,356 p=9463 u=jeremygraslie n=ansible INFO| Skipping callback 'default', as we already have a stdout callback.
+2026-11-05 01:33:58,356 p=9463 u=jeremygraslie n=ansible INFO| Skipping callback 'oneline', as we already have a stdout callback.
+2026-11-05 01:33:58,357 p=9463 u=jeremygraslie n=ansible WARNING| [WARNING]: Failed to load callback plugin 'log_plays': Unable to create local directories '/private/var/log/ansible/hosts': [Errno 13] Permission denied: b'/private/var/log/ansible'
+
+2026-11-05 01:33:58,362 p=9463 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  01:33:58 -0600 (0:00:00.013)       0:00:00.013 ***** 
+2026-11-05 01:33:59,050 p=9463 u=jeremygraslie n=ansible INFO| thor | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2026-11-05 01:33:59,051 p=9463 u=jeremygraslie n=ansible INFO| PLAYBOOK RECAP ********************************************************************************************************************************
+2026-11-05 01:33:59,051 p=9463 u=jeremygraslie n=ansible INFO| Playbook run took 0 days, 0 hours, 0 minutes, 0 seconds
+
+2026-11-05 01:33:59,051 p=9463 u=jeremygraslie n=ansible INFO| TASKS RECAP ***********************************************************************************************************************************
+2026-11-05 01:33:59,051 p=9463 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  01:33:59 -0600 (0:00:00.689)       0:00:00.702 ***** 
+2026-11-05 01:33:59,051 p=9463 u=jeremygraslie n=ansible INFO| =============================================================================== 
+2026-11-05 01:33:59,051 p=9463 u=jeremygraslie n=ansible INFO| ping ----------------------------------------------------------------------------------------------------------------------------------- 0.69s
+ ---------------------------------------------------------------------------------------------------------------------------------------------
+2026-11-05 01:36:34,308 p=9947 u=jeremygraslie n=ansible INFO| ansible [core 2.21.5]
+  config file = /Users/jeremygraslie/GitHub/ansible/ansible.cfg
+  configured module search path = ['/Users/jeremygraslie/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /opt/homebrew/Cellar/ansible/14.5.0_2/libexec/lib/python3.15/site-packages/ansible
+  ansible collection location = /Users/jeremygraslie/.ansible/collections:/usr/share/ansible/collections
+  executable location = /opt/homebrew/bin/ansible
+  python version = 3.15.2 (main, Oct 25 2026, 16:57:51) [Clang 21.0.0 (clang-2100.3.34.2)] (/opt/homebrew/Cellar/ansible/14.5.0_2/libexec/bin/python)
+  jinja version = 3.1.6
+  pyyaml version = 6.0.3 (with libyaml v0.2.5)
+2026-11-05 01:36:34,308 p=9947 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 01:36:34,373 p=9947 u=jeremygraslie n=ansible INFO| Skipping callback 'default', as we already have a stdout callback.
+2026-11-05 01:36:34,373 p=9947 u=jeremygraslie n=ansible INFO| Skipping callback 'oneline', as we already have a stdout callback.
+2026-11-05 01:36:34,374 p=9947 u=jeremygraslie n=ansible WARNING| [WARNING]: Failed to load callback plugin 'community.general.log_plays': Unable to create local directories '/private/var/log/ansible/hosts': [Errno 13] Permission denied: b'/private/var/log/ansible'
+
+2026-11-05 01:36:34,380 p=9947 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  01:36:34 -0600 (0:00:00.015)       0:00:00.015 ***** 
+2026-11-05 01:36:35,248 p=9947 u=jeremygraslie n=ansible INFO| thor | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2026-11-05 01:36:35,249 p=9947 u=jeremygraslie n=ansible INFO| PLAYBOOK RECAP ********************************************************************************************************************************
+2026-11-05 01:36:35,250 p=9947 u=jeremygraslie n=ansible INFO| Playbook run took 0 days, 0 hours, 0 minutes, 0 seconds
+
+2026-11-05 01:36:35,250 p=9947 u=jeremygraslie n=ansible INFO| TASKS RECAP ***********************************************************************************************************************************
+2026-11-05 01:36:35,250 p=9947 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  01:36:35 -0600 (0:00:00.869)       0:00:00.884 ***** 
+2026-11-05 01:36:35,250 p=9947 u=jeremygraslie n=ansible INFO| =============================================================================== 
+2026-11-05 01:36:35,250 p=9947 u=jeremygraslie n=ansible INFO| ping ----------------------------------------------------------------------------------------------------------------------------------- 0.87s
+ ---------------------------------------------------------------------------------------------------------------------------------------------
+2026-11-05 01:36:43,693 p=10016 u=jeremygraslie n=ansible INFO| ansible [core 2.21.5]
+  config file = /Users/jeremygraslie/GitHub/ansible/ansible.cfg
+  configured module search path = ['/Users/jeremygraslie/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /opt/homebrew/Cellar/ansible/14.5.0_2/libexec/lib/python3.15/site-packages/ansible
+  ansible collection location = /Users/jeremygraslie/.ansible/collections:/usr/share/ansible/collections
+  executable location = /opt/homebrew/bin/ansible
+  python version = 3.15.2 (main, Oct 25 2026, 16:57:51) [Clang 21.0.0 (clang-2100.3.34.2)] (/opt/homebrew/Cellar/ansible/14.5.0_2/libexec/bin/python)
+  jinja version = 3.1.6
+  pyyaml version = 6.0.3 (with libyaml v0.2.5)
+2026-11-05 01:36:43,693 p=10016 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 01:36:43,758 p=10016 u=jeremygraslie n=ansible INFO| Skipping callback 'default', as we already have a stdout callback.
+2026-11-05 01:36:43,758 p=10016 u=jeremygraslie n=ansible INFO| Skipping callback 'oneline', as we already have a stdout callback.
+2026-11-05 01:36:43,759 p=10016 u=jeremygraslie n=ansible WARNING| [WARNING]: Failed to load callback plugin 'community.general.log_plays': Unable to create local directories '/private/var/log/ansible/hosts': [Errno 13] Permission denied: b'/private/var/log/ansible'
+
+2026-11-05 01:36:43,766 p=10016 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  01:36:43 -0600 (0:00:00.014)       0:00:00.014 ***** 
+2026-11-05 01:36:44,454 p=10016 u=jeremygraslie n=ansible INFO| thor | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2026-11-05 01:36:44,455 p=10016 u=jeremygraslie n=ansible INFO| PLAYBOOK RECAP ********************************************************************************************************************************
+2026-11-05 01:36:44,455 p=10016 u=jeremygraslie n=ansible INFO| Playbook run took 0 days, 0 hours, 0 minutes, 0 seconds
+
+2026-11-05 01:36:44,455 p=10016 u=jeremygraslie n=ansible INFO| TASKS RECAP ***********************************************************************************************************************************
+2026-11-05 01:36:44,455 p=10016 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  01:36:44 -0600 (0:00:00.689)       0:00:00.704 ***** 
+2026-11-05 01:36:44,455 p=10016 u=jeremygraslie n=ansible INFO| =============================================================================== 
+2026-11-05 01:36:44,455 p=10016 u=jeremygraslie n=ansible INFO| ping ----------------------------------------------------------------------------------------------------------------------------------- 0.69s
+ ---------------------------------------------------------------------------------------------------------------------------------------------
+2026-11-05 01:45:24,621 p=11338 u=jeremygraslie n=ansible INFO| ansible [core 2.21.5]
+  config file = /Users/jeremygraslie/GitHub/ansible/ansible.cfg
+  configured module search path = ['/Users/jeremygraslie/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /opt/homebrew/Cellar/ansible/14.5.0_2/libexec/lib/python3.15/site-packages/ansible
+  ansible collection location = /Users/jeremygraslie/.ansible/collections:/usr/share/ansible/collections
+  executable location = /opt/homebrew/bin/ansible
+  python version = 3.15.2 (main, Oct 25 2026, 16:57:51) [Clang 21.0.0 (clang-2100.3.34.2)] (/opt/homebrew/Cellar/ansible/14.5.0_2/libexec/bin/python)
+  jinja version = 3.1.6
+  pyyaml version = 6.0.3 (with libyaml v0.2.5)
+2026-11-05 01:45:24,621 p=11338 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 01:45:24,691 p=11338 u=jeremygraslie n=ansible INFO| Skipping callback 'default', as we already have a stdout callback.
+2026-11-05 01:45:24,691 p=11338 u=jeremygraslie n=ansible INFO| Skipping callback 'oneline', as we already have a stdout callback.
+2026-11-05 01:45:24,701 p=11338 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  01:45:24 -0600 (0:00:00.018)       0:00:00.018 ***** 
+2026-11-05 01:45:26,281 p=11338 u=jeremygraslie n=ansible INFO| thor | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2026-11-05 01:45:26,282 p=11338 u=jeremygraslie n=ansible WARNING| [WARNING]: Callback dispatch 'v2_runner_on_ok' failed for plugin 'ansible_collections.community.general.plugins.callback.log_plays': [Errno 2] No such file or directory: '~/GitHub/ansible/logs/hosts/thor'
+
+2026-11-05 01:45:26,283 p=11338 u=jeremygraslie n=ansible INFO| PLAYBOOK RECAP ********************************************************************************************************************************
+2026-11-05 01:45:26,283 p=11338 u=jeremygraslie n=ansible INFO| Playbook run took 0 days, 0 hours, 0 minutes, 1 seconds
+
+2026-11-05 01:45:26,283 p=11338 u=jeremygraslie n=ansible INFO| TASKS RECAP ***********************************************************************************************************************************
+2026-11-05 01:45:26,283 p=11338 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  01:45:26 -0600 (0:00:01.582)       0:00:01.600 ***** 
+2026-11-05 01:45:26,283 p=11338 u=jeremygraslie n=ansible INFO| =============================================================================== 
+2026-11-05 01:45:26,283 p=11338 u=jeremygraslie n=ansible INFO| ping ----------------------------------------------------------------------------------------------------------------------------------- 1.58s
+ ---------------------------------------------------------------------------------------------------------------------------------------------
+2026-11-05 01:47:08,946 p=11634 u=jeremygraslie n=ansible INFO| ansible [core 2.21.5]
+  config file = /Users/jeremygraslie/GitHub/ansible/ansible.cfg
+  configured module search path = ['/Users/jeremygraslie/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /opt/homebrew/Cellar/ansible/14.5.0_2/libexec/lib/python3.15/site-packages/ansible
+  ansible collection location = /Users/jeremygraslie/.ansible/collections:/usr/share/ansible/collections
+  executable location = /opt/homebrew/bin/ansible
+  python version = 3.15.2 (main, Oct 25 2026, 16:57:51) [Clang 21.0.0 (clang-2100.3.34.2)] (/opt/homebrew/Cellar/ansible/14.5.0_2/libexec/bin/python)
+  jinja version = 3.1.6
+  pyyaml version = 6.0.3 (with libyaml v0.2.5)
+2026-11-05 01:47:08,947 p=11634 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 01:47:09,007 p=11634 u=jeremygraslie n=ansible INFO| Skipping callback 'default', as we already have a stdout callback.
+2026-11-05 01:47:09,007 p=11634 u=jeremygraslie n=ansible INFO| Skipping callback 'oneline', as we already have a stdout callback.
+2026-11-05 01:47:09,020 p=11634 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  01:47:09 -0600 (0:00:00.012)       0:00:00.012 ***** 
+2026-11-05 01:47:10,489 p=11634 u=jeremygraslie n=ansible INFO| thor | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2026-11-05 01:47:10,490 p=11634 u=jeremygraslie n=ansible INFO| PLAYBOOK RECAP ********************************************************************************************************************************
+2026-11-05 01:47:10,490 p=11634 u=jeremygraslie n=ansible INFO| Playbook run took 0 days, 0 hours, 0 minutes, 1 seconds
+
+2026-11-05 01:47:10,490 p=11634 u=jeremygraslie n=ansible INFO| TASKS RECAP ***********************************************************************************************************************************
+2026-11-05 01:47:10,491 p=11634 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  01:47:10 -0600 (0:00:01.471)       0:00:01.483 ***** 
+2026-11-05 01:47:10,491 p=11634 u=jeremygraslie n=ansible INFO| =============================================================================== 
+2026-11-05 01:47:10,491 p=11634 u=jeremygraslie n=ansible INFO| ping ----------------------------------------------------------------------------------------------------------------------------------- 1.47s
+ ---------------------------------------------------------------------------------------------------------------------------------------------
+2026-11-05 01:48:34,425 p=11842 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 01:49:04,777 p=11995 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 01:49:04,847 p=11995 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  01:49:04 -0600 (0:00:00.009)       0:00:00.009 ***** 
+2026-11-05 01:49:04,859 p=11995 u=jeremygraslie n=ansible INFO| thor | SUCCESS => {
+    "changed": false
+}
+2026-11-05 01:49:04,865 p=11995 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  01:49:04 -0600 (0:00:00.017)       0:00:00.026 ***** 
+2026-11-05 01:49:06,114 p=11995 u=jeremygraslie n=ansible ERROR| [ERROR]: Task failed: Action failed: Module result deserialization failed: No start of json char found
+
+Task failed: Action failed.
+Origin: /Users/jeremygraslie/GitHub/ansible/roles/create_ansible_user/tasks/main.yml:2:3
+
+1 ---
+2 - name: Create Ansible User
+    ^ column 3
+
+<<< caused by >>>
+
+Module result deserialization failed: No start of json char found See stdout/stderr for the returned output.
+
+
+2026-11-05 01:49:06,115 p=11995 u=jeremygraslie n=ansible INFO| thor | FAILED! => {
+    "changed": false,
+    "module_stderr": "Shared connection to 172.20.6.202 closed.\r\n",
+    "module_stdout": "sudo: interactive authentication is required\r\n",
+    "msg": "Module result deserialization failed: No start of json char found",
+    "rc": 1
+}
+2026-11-05 01:49:06,115 p=11995 u=jeremygraslie n=ansible INFO| PLAYBOOK RECAP ********************************************************************************************************************************
+2026-11-05 01:49:06,115 p=11995 u=jeremygraslie n=ansible INFO| Playbook run took 0 days, 0 hours, 0 minutes, 1 seconds
+
+2026-11-05 01:49:06,115 p=11995 u=jeremygraslie n=ansible INFO| TASKS RECAP ***********************************************************************************************************************************
+2026-11-05 01:49:06,116 p=11995 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  01:49:06 -0600 (0:00:01.250)       0:00:01.277 ***** 
+2026-11-05 01:49:06,116 p=11995 u=jeremygraslie n=ansible INFO| =============================================================================== 
+2026-11-05 01:49:06,116 p=11995 u=jeremygraslie n=ansible INFO| create_ansible_user : Create Ansible User ---------------------------------------------------------------------------------------------- 1.25s
+2026-11-05 01:49:06,116 p=11995 u=jeremygraslie n=ansible INFO| include_role : create_ansible_user ----------------------------------------------------------------------------------------------------- 0.02s
+2026-11-05 01:49:24,610 p=12075 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 01:49:24,677 p=12075 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  01:49:24 -0600 (0:00:00.008)       0:00:00.008 ***** 
+2026-11-05 01:49:24,690 p=12075 u=jeremygraslie n=ansible INFO| thor | SUCCESS => {
+    "changed": false
+}
+2026-11-05 01:49:24,695 p=12075 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  01:49:24 -0600 (0:00:00.017)       0:00:00.025 ***** 
+2026-11-05 01:49:25,099 p=12075 u=jeremygraslie n=ansible ERROR| [ERROR]: Task failed: Action failed: Module result deserialization failed: No start of json char found
+
+Task failed: Action failed.
+Origin: /Users/jeremygraslie/GitHub/ansible/roles/create_ansible_user/tasks/main.yml:1:3
+
+1 - name: Create Ansible User
+    ^ column 3
+
+<<< caused by >>>
+
+Module result deserialization failed: No start of json char found See stdout/stderr for the returned output.
+
+
+2026-11-05 01:49:25,099 p=12075 u=jeremygraslie n=ansible INFO| thor | FAILED! => {
+    "changed": false,
+    "module_stderr": "Shared connection to 172.20.6.202 closed.\r\n",
+    "module_stdout": "sudo: interactive authentication is required\r\n",
+    "msg": "Module result deserialization failed: No start of json char found",
+    "rc": 1
+}
+2026-11-05 01:49:25,100 p=12075 u=jeremygraslie n=ansible INFO| PLAYBOOK RECAP ********************************************************************************************************************************
+2026-11-05 01:49:25,100 p=12075 u=jeremygraslie n=ansible INFO| Playbook run took 0 days, 0 hours, 0 minutes, 0 seconds
+
+2026-11-05 01:49:25,100 p=12075 u=jeremygraslie n=ansible INFO| TASKS RECAP ***********************************************************************************************************************************
+2026-11-05 01:49:25,100 p=12075 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  01:49:25 -0600 (0:00:00.405)       0:00:00.430 ***** 
+2026-11-05 01:49:25,100 p=12075 u=jeremygraslie n=ansible INFO| =============================================================================== 
+2026-11-05 01:49:25,100 p=12075 u=jeremygraslie n=ansible INFO| create_ansible_user : Create Ansible User ---------------------------------------------------------------------------------------------- 0.41s
+2026-11-05 01:49:25,100 p=12075 u=jeremygraslie n=ansible INFO| include_role : create_ansible_user ----------------------------------------------------------------------------------------------------- 0.02s
+2026-11-05 01:50:52,200 p=12320 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 01:50:52,269 p=12320 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  01:50:52 -0600 (0:00:00.009)       0:00:00.009 ***** 
+2026-11-05 01:50:52,279 p=12320 u=jeremygraslie n=ansible INFO| thor | SUCCESS => {
+    "changed": false
+}
+2026-11-05 01:50:52,284 p=12320 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  01:50:52 -0600 (0:00:00.015)       0:00:00.024 ***** 
+2026-11-05 01:50:53,488 p=12320 u=jeremygraslie n=ansible ERROR| [ERROR]: Task failed: Action failed: Module result deserialization failed: No start of json char found
+
+Task failed: Action failed.
+Origin: /Users/jeremygraslie/GitHub/ansible/roles/create_ansible_user/tasks/main.yml:1:3
+
+1 - name: Create Ansible User
+    ^ column 3
+
+<<< caused by >>>
+
+Module result deserialization failed: No start of json char found See stdout/stderr for the returned output.
+
+
+2026-11-05 01:50:53,488 p=12320 u=jeremygraslie n=ansible INFO| thor | FAILED! => {
+    "changed": false,
+    "module_stderr": "Shared connection to 172.20.6.202 closed.\r\n",
+    "module_stdout": "sudo: interactive authentication is required\r\n",
+    "msg": "Module result deserialization failed: No start of json char found",
+    "rc": 1
+}
+2026-11-05 01:50:53,489 p=12320 u=jeremygraslie n=ansible INFO| PLAYBOOK RECAP ********************************************************************************************************************************
+2026-11-05 01:50:53,489 p=12320 u=jeremygraslie n=ansible INFO| Playbook run took 0 days, 0 hours, 0 minutes, 1 seconds
+
+2026-11-05 01:50:53,489 p=12320 u=jeremygraslie n=ansible INFO| TASKS RECAP ***********************************************************************************************************************************
+2026-11-05 01:50:53,489 p=12320 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  01:50:53 -0600 (0:00:01.204)       0:00:01.229 ***** 
+2026-11-05 01:50:53,489 p=12320 u=jeremygraslie n=ansible INFO| =============================================================================== 
+2026-11-05 01:50:53,489 p=12320 u=jeremygraslie n=ansible INFO| create_ansible_user : Create Ansible User ---------------------------------------------------------------------------------------------- 1.20s
+2026-11-05 01:50:53,489 p=12320 u=jeremygraslie n=ansible INFO| include_role : create_ansible_user ----------------------------------------------------------------------------------------------------- 0.02s
+2026-11-05 01:53:10,667 p=12770 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 01:53:10,737 p=12770 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  01:53:10 -0600 (0:00:00.009)       0:00:00.009 ***** 
+2026-11-05 01:53:10,748 p=12770 u=jeremygraslie n=ansible INFO| thor | SUCCESS => {
+    "changed": false
+}
+2026-11-05 01:53:10,753 p=12770 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  01:53:10 -0600 (0:00:00.015)       0:00:00.025 ***** 
+2026-11-05 01:53:12,015 p=12770 u=jeremygraslie n=ansible ERROR| [ERROR]: Task failed: Action failed: Module result deserialization failed: No start of json char found
+
+Task failed: Action failed.
+Origin: /Users/jeremygraslie/GitHub/ansible/roles/create_ansible_user/tasks/main.yml:1:3
+
+1 - name: Create Ansible User
+    ^ column 3
+
+<<< caused by >>>
+
+Module result deserialization failed: No start of json char found See stdout/stderr for the returned output.
+
+
+2026-11-05 01:53:12,015 p=12770 u=jeremygraslie n=ansible INFO| thor | FAILED! => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.14"
+    },
+    "changed": false,
+    "module_stderr": "Shared connection to 172.20.6.202 closed.\r\n",
+    "module_stdout": "sudo: interactive authentication is required\r\n",
+    "msg": "Module result deserialization failed: No start of json char found",
+    "rc": 1
+}
+2026-11-05 01:53:12,016 p=12770 u=jeremygraslie n=ansible INFO| PLAYBOOK RECAP ********************************************************************************************************************************
+2026-11-05 01:53:12,016 p=12770 u=jeremygraslie n=ansible INFO| Playbook run took 0 days, 0 hours, 0 minutes, 1 seconds
+
+2026-11-05 01:53:12,016 p=12770 u=jeremygraslie n=ansible INFO| TASKS RECAP ***********************************************************************************************************************************
+2026-11-05 01:53:12,016 p=12770 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  01:53:12 -0600 (0:00:01.262)       0:00:01.287 ***** 
+2026-11-05 01:53:12,016 p=12770 u=jeremygraslie n=ansible INFO| =============================================================================== 
+2026-11-05 01:53:12,016 p=12770 u=jeremygraslie n=ansible INFO| create_ansible_user : Create Ansible User ---------------------------------------------------------------------------------------------- 1.26s
+2026-11-05 01:53:12,016 p=12770 u=jeremygraslie n=ansible INFO| include_role : create_ansible_user ----------------------------------------------------------------------------------------------------- 0.02s
+2026-11-05 01:53:31,243 p=13032 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 01:53:31,312 p=13032 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  01:53:31 -0600 (0:00:00.008)       0:00:00.008 ***** 
+2026-11-05 01:53:31,323 p=13032 u=jeremygraslie n=ansible INFO| thor | SUCCESS => {
+    "changed": false
+}
+2026-11-05 01:53:31,328 p=13032 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  01:53:31 -0600 (0:00:00.016)       0:00:00.024 ***** 
+2026-11-05 01:53:31,779 p=13032 u=jeremygraslie n=ansible WARNING| [WARNING]: Host 'thor' is using the discovered Python interpreter at '/usr/bin/python3.14', but future installation of another Python interpreter could cause a different interpreter to be discovered. See https://docs.ansible.com/ansible-core/2.21/reference_appendices/interpreter_discovery.html for more information.
+
+2026-11-05 01:53:31,780 p=13032 u=jeremygraslie n=ansible ERROR| [ERROR]: Task failed: Action failed: Module result deserialization failed: No start of json char found
+
+Task failed: Action failed.
+Origin: /Users/jeremygraslie/GitHub/ansible/roles/create_ansible_user/tasks/main.yml:1:3
+
+1 - name: Create Ansible User
+    ^ column 3
+
+<<< caused by >>>
+
+Module result deserialization failed: No start of json char found See stdout/stderr for the returned output.
+
+
+2026-11-05 01:53:31,780 p=13032 u=jeremygraslie n=ansible INFO| thor | FAILED! => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.14"
+    },
+    "changed": false,
+    "module_stderr": "Shared connection to 172.20.6.202 closed.\r\n",
+    "module_stdout": "sudo: interactive authentication is required\r\n",
+    "msg": "Module result deserialization failed: No start of json char found",
+    "rc": 1
+}
+2026-11-05 01:53:31,780 p=13032 u=jeremygraslie n=ansible INFO| PLAYBOOK RECAP ********************************************************************************************************************************
+2026-11-05 01:53:31,780 p=13032 u=jeremygraslie n=ansible INFO| Playbook run took 0 days, 0 hours, 0 minutes, 0 seconds
+
+2026-11-05 01:53:31,780 p=13032 u=jeremygraslie n=ansible INFO| TASKS RECAP ***********************************************************************************************************************************
+2026-11-05 01:53:31,780 p=13032 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  01:53:31 -0600 (0:00:00.452)       0:00:00.477 ***** 
+2026-11-05 01:53:31,780 p=13032 u=jeremygraslie n=ansible INFO| =============================================================================== 
+2026-11-05 01:53:31,780 p=13032 u=jeremygraslie n=ansible INFO| create_ansible_user : Create Ansible User ---------------------------------------------------------------------------------------------- 0.45s
+2026-11-05 01:53:31,780 p=13032 u=jeremygraslie n=ansible INFO| include_role : create_ansible_user ----------------------------------------------------------------------------------------------------- 0.02s
+2026-11-05 01:55:21,753 p=13473 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 01:55:27,347 p=13473 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  01:55:27 -0600 (0:00:00.009)       0:00:00.009 ***** 
+2026-11-05 01:55:27,358 p=13473 u=jeremygraslie n=ansible INFO| thor | SUCCESS => {
+    "changed": false
+}
+2026-11-05 01:55:27,363 p=13473 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  01:55:27 -0600 (0:00:00.015)       0:00:00.025 ***** 
+2026-11-05 01:55:40,619 p=13473 u=jeremygraslie n=ansible WARNING| [WARNING]: Host 'thor' is using the discovered Python interpreter at '/usr/bin/python3.14', but future installation of another Python interpreter could cause a different interpreter to be discovered. See https://docs.ansible.com/ansible-core/2.21/reference_appendices/interpreter_discovery.html for more information.
+
+2026-11-05 01:55:40,619 p=13473 u=jeremygraslie n=ansible ERROR| [ERROR]: Task failed: Timeout (12s) waiting for privilege escalation prompt:
+Origin: /Users/jeremygraslie/GitHub/ansible/roles/create_ansible_user/tasks/main.yml:1:3
+
+1 - name: Create Ansible User
+    ^ column 3
+
+
+2026-11-05 01:55:40,620 p=13473 u=jeremygraslie n=ansible INFO| thor | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Task failed: Timeout (12s) waiting for privilege escalation prompt:",
+    "unreachable": true
+}
+2026-11-05 01:55:40,620 p=13473 u=jeremygraslie n=ansible INFO| PLAYBOOK RECAP ********************************************************************************************************************************
+2026-11-05 01:55:40,620 p=13473 u=jeremygraslie n=ansible INFO| Playbook run took 0 days, 0 hours, 0 minutes, 13 seconds
+
+2026-11-05 01:55:40,621 p=13473 u=jeremygraslie n=ansible INFO| TASKS RECAP ***********************************************************************************************************************************
+2026-11-05 01:55:40,621 p=13473 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  01:55:40 -0600 (0:00:13.257)       0:00:13.283 ***** 
+2026-11-05 01:55:40,621 p=13473 u=jeremygraslie n=ansible INFO| =============================================================================== 
+2026-11-05 01:55:40,621 p=13473 u=jeremygraslie n=ansible INFO| create_ansible_user : Create Ansible User --------------------------------------------------------------------------------------------- 13.26s
+2026-11-05 01:55:40,621 p=13473 u=jeremygraslie n=ansible INFO| include_role : create_ansible_user ----------------------------------------------------------------------------------------------------- 0.02s
+2026-11-05 01:57:17,864 p=13801 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 01:57:17,934 p=13801 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  01:57:17 -0600 (0:00:00.009)       0:00:00.009 ***** 
+2026-11-05 01:57:17,947 p=13801 u=jeremygraslie n=ansible INFO| thor | SUCCESS => {
+    "changed": false
+}
+2026-11-05 01:57:17,952 p=13801 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  01:57:17 -0600 (0:00:00.018)       0:00:00.027 ***** 
+2026-11-05 01:57:31,250 p=13801 u=jeremygraslie n=ansible WARNING| [WARNING]: Host 'thor' is using the discovered Python interpreter at '/usr/bin/python3.14', but future installation of another Python interpreter could cause a different interpreter to be discovered. See https://docs.ansible.com/ansible-core/2.21/reference_appendices/interpreter_discovery.html for more information.
+
+2026-11-05 01:57:31,250 p=13801 u=jeremygraslie n=ansible ERROR| [ERROR]: Task failed: Timeout (12s) waiting for privilege escalation prompt:
+Origin: /Users/jeremygraslie/GitHub/ansible/roles/create_ansible_user/tasks/main.yml:1:3
+
+1 - name: Create Ansible User
+    ^ column 3
+
+
+2026-11-05 01:57:31,251 p=13801 u=jeremygraslie n=ansible INFO| thor | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Task failed: Timeout (12s) waiting for privilege escalation prompt:",
+    "unreachable": true
+}
+2026-11-05 01:57:31,251 p=13801 u=jeremygraslie n=ansible INFO| PLAYBOOK RECAP ********************************************************************************************************************************
+2026-11-05 01:57:31,251 p=13801 u=jeremygraslie n=ansible INFO| Playbook run took 0 days, 0 hours, 0 minutes, 13 seconds
+
+2026-11-05 01:57:31,251 p=13801 u=jeremygraslie n=ansible INFO| TASKS RECAP ***********************************************************************************************************************************
+2026-11-05 01:57:31,251 p=13801 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  01:57:31 -0600 (0:00:13.299)       0:00:13.326 ***** 
+2026-11-05 01:57:31,252 p=13801 u=jeremygraslie n=ansible INFO| =============================================================================== 
+2026-11-05 01:57:31,252 p=13801 u=jeremygraslie n=ansible INFO| create_ansible_user : Create Ansible User --------------------------------------------------------------------------------------------- 13.30s
+2026-11-05 01:57:31,252 p=13801 u=jeremygraslie n=ansible INFO| include_role : create_ansible_user ----------------------------------------------------------------------------------------------------- 0.02s
+2026-11-05 02:00:14,907 p=14313 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 02:05:20,635 p=15154 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 02:05:32,280 p=15200 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 02:05:32,349 p=15200 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:05:32 -0600 (0:00:00.009)       0:00:00.009 ***** 
+2026-11-05 02:05:32,360 p=15200 u=jeremygraslie n=ansible INFO| thor | SUCCESS => {
+    "changed": false
+}
+2026-11-05 02:05:32,365 p=15200 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:05:32 -0600 (0:00:00.016)       0:00:00.025 ***** 
+2026-11-05 02:05:33,690 p=15200 u=jeremygraslie n=ansible WARNING| [WARNING]: Host 'thor' is using the discovered Python interpreter at '/usr/bin/python3.14', but future installation of another Python interpreter could cause a different interpreter to be discovered. See https://docs.ansible.com/ansible-core/2.21/reference_appendices/interpreter_discovery.html for more information.
+
+2026-11-05 02:05:33,690 p=15200 u=jeremygraslie n=ansible ERROR| [ERROR]: Task failed: Action failed: Module result deserialization failed: No start of json char found
+
+Task failed: Action failed.
+Origin: /Users/jeremygraslie/GitHub/ansible/roles/create_ansible_user/tasks/main.yml:1:3
+
+1 - name: Create Ansible User
+    ^ column 3
+
+<<< caused by >>>
+
+Module result deserialization failed: No start of json char found See stdout/stderr for the returned output.
+
+
+2026-11-05 02:05:33,691 p=15200 u=jeremygraslie n=ansible INFO| thor | FAILED! => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.14"
+    },
+    "changed": false,
+    "module_stderr": "Shared connection to 172.20.6.202 closed.\r\n",
+    "module_stdout": "sudo: interactive authentication is required\r\n",
+    "msg": "Module result deserialization failed: No start of json char found",
+    "rc": 1
+}
+2026-11-05 02:05:33,691 p=15200 u=jeremygraslie n=ansible INFO| PLAYBOOK RECAP ********************************************************************************************************************************
+2026-11-05 02:05:33,691 p=15200 u=jeremygraslie n=ansible INFO| Playbook run took 0 days, 0 hours, 0 minutes, 1 seconds
+
+2026-11-05 02:05:33,691 p=15200 u=jeremygraslie n=ansible INFO| TASKS RECAP ***********************************************************************************************************************************
+2026-11-05 02:05:33,692 p=15200 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:05:33 -0600 (0:00:01.326)       0:00:01.352 ***** 
+2026-11-05 02:05:33,692 p=15200 u=jeremygraslie n=ansible INFO| =============================================================================== 
+2026-11-05 02:05:33,692 p=15200 u=jeremygraslie n=ansible INFO| create_ansible_user : Create Ansible User ---------------------------------------------------------------------------------------------- 1.33s
+2026-11-05 02:05:33,692 p=15200 u=jeremygraslie n=ansible INFO| include_role : create_ansible_user ----------------------------------------------------------------------------------------------------- 0.02s
+2026-11-05 02:10:50,032 p=15941 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 02:10:54,174 p=15941 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:10:54 -0600 (0:00:00.009)       0:00:00.009 ***** 
+2026-11-05 02:10:54,185 p=15941 u=jeremygraslie n=ansible INFO| thor | SUCCESS => {
+    "changed": false
+}
+2026-11-05 02:10:54,191 p=15941 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:10:54 -0600 (0:00:00.016)       0:00:00.026 ***** 
+2026-11-05 02:11:07,457 p=15941 u=jeremygraslie n=ansible WARNING| [WARNING]: Host 'thor' is using the discovered Python interpreter at '/usr/bin/python3.14', but future installation of another Python interpreter could cause a different interpreter to be discovered. See https://docs.ansible.com/ansible-core/2.21/reference_appendices/interpreter_discovery.html for more information.
+
+2026-11-05 02:11:07,457 p=15941 u=jeremygraslie n=ansible ERROR| [ERROR]: Task failed: Timeout (12s) waiting for privilege escalation prompt:
+Origin: /Users/jeremygraslie/GitHub/ansible/roles/create_ansible_user/tasks/main.yml:1:3
+
+1 - name: Create Ansible User
+    ^ column 3
+
+
+2026-11-05 02:11:07,458 p=15941 u=jeremygraslie n=ansible INFO| thor | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Task failed: Timeout (12s) waiting for privilege escalation prompt:",
+    "unreachable": true
+}
+2026-11-05 02:11:07,458 p=15941 u=jeremygraslie n=ansible INFO| PLAYBOOK RECAP ********************************************************************************************************************************
+2026-11-05 02:11:07,458 p=15941 u=jeremygraslie n=ansible INFO| Playbook run took 0 days, 0 hours, 0 minutes, 13 seconds
+
+2026-11-05 02:11:07,458 p=15941 u=jeremygraslie n=ansible INFO| TASKS RECAP ***********************************************************************************************************************************
+2026-11-05 02:11:07,459 p=15941 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:11:07 -0600 (0:00:13.267)       0:00:13.294 ***** 
+2026-11-05 02:11:07,459 p=15941 u=jeremygraslie n=ansible INFO| =============================================================================== 
+2026-11-05 02:11:07,459 p=15941 u=jeremygraslie n=ansible INFO| create_ansible_user : Create Ansible User --------------------------------------------------------------------------------------------- 13.27s
+2026-11-05 02:11:07,459 p=15941 u=jeremygraslie n=ansible INFO| include_role : create_ansible_user ----------------------------------------------------------------------------------------------------- 0.02s
+2026-11-05 02:11:30,776 p=16070 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 02:11:30,776 p=16070 u=jeremygraslie n=ansible ERROR| [ERROR]: Failed to edit '/Users/jeremygraslie/GitHub/ansible/vault/vault-pass.txt': Input is not vault encrypted data.
+
+Failed to edit '/Users/jeremygraslie/GitHub/ansible/vault/vault-pass.txt'.
+
+<<< caused by >>>
+
+Input is not vault encrypted data.
+Origin: /Users/jeremygraslie/GitHub/ansible/vault/vault-pass.txt
+
+
+2026-11-05 02:11:48,975 p=16152 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 02:11:48,983 p=16152 u=jeremygraslie n=ansible INFO| Decryption successful
+2026-11-05 02:12:41,792 p=16350 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 02:12:41,861 p=16350 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:12:41 -0600 (0:00:00.009)       0:00:00.009 ***** 
+2026-11-05 02:12:41,874 p=16350 u=jeremygraslie n=ansible INFO| thor | SUCCESS => {
+    "changed": false
+}
+2026-11-05 02:12:41,879 p=16350 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:12:41 -0600 (0:00:00.017)       0:00:00.027 ***** 
+2026-11-05 02:12:43,236 p=16350 u=jeremygraslie n=ansible WARNING| [WARNING]: Host 'thor' is using the discovered Python interpreter at '/usr/bin/python3.14', but future installation of another Python interpreter could cause a different interpreter to be discovered. See https://docs.ansible.com/ansible-core/2.21/reference_appendices/interpreter_discovery.html for more information.
+
+2026-11-05 02:12:43,237 p=16350 u=jeremygraslie n=ansible ERROR| [ERROR]: Task failed: Action failed: Module result deserialization failed: No start of json char found
+
+Task failed: Action failed.
+Origin: /Users/jeremygraslie/GitHub/ansible/roles/create_ansible_user/tasks/main.yml:1:3
+
+1 - name: Create Ansible User
+    ^ column 3
+
+<<< caused by >>>
+
+Module result deserialization failed: No start of json char found See stdout/stderr for the returned output.
+
+
+2026-11-05 02:12:43,237 p=16350 u=jeremygraslie n=ansible INFO| thor | FAILED! => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.14"
+    },
+    "changed": false,
+    "module_stderr": "Shared connection to 172.20.6.202 closed.\r\n",
+    "module_stdout": "sudo: interactive authentication is required\r\n",
+    "msg": "Module result deserialization failed: No start of json char found",
+    "rc": 1
+}
+2026-11-05 02:12:43,238 p=16350 u=jeremygraslie n=ansible INFO| PLAYBOOK RECAP ********************************************************************************************************************************
+2026-11-05 02:12:43,238 p=16350 u=jeremygraslie n=ansible INFO| Playbook run took 0 days, 0 hours, 0 minutes, 1 seconds
+
+2026-11-05 02:12:43,238 p=16350 u=jeremygraslie n=ansible INFO| TASKS RECAP ***********************************************************************************************************************************
+2026-11-05 02:12:43,238 p=16350 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:12:43 -0600 (0:00:01.358)       0:00:01.386 ***** 
+2026-11-05 02:12:43,238 p=16350 u=jeremygraslie n=ansible INFO| =============================================================================== 
+2026-11-05 02:12:43,238 p=16350 u=jeremygraslie n=ansible INFO| create_ansible_user : Create Ansible User ---------------------------------------------------------------------------------------------- 1.36s
+2026-11-05 02:12:43,238 p=16350 u=jeremygraslie n=ansible INFO| include_role : create_ansible_user ----------------------------------------------------------------------------------------------------- 0.02s
+2026-11-05 02:15:36,841 p=16866 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 02:16:48,595 p=17035 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 02:16:48,670 p=17035 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:16:48 -0600 (0:00:00.014)       0:00:00.014 ***** 
+2026-11-05 02:16:48,682 p=17035 u=jeremygraslie n=ansible INFO| thor | SUCCESS => {
+    "changed": false
+}
+2026-11-05 02:16:48,688 p=17035 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:16:48 -0600 (0:00:00.017)       0:00:00.032 ***** 
+2026-11-05 02:16:49,990 p=17035 u=jeremygraslie n=ansible WARNING| [WARNING]: Host 'thor' is using the discovered Python interpreter at '/usr/bin/python3.14', but future installation of another Python interpreter could cause a different interpreter to be discovered. See https://docs.ansible.com/ansible-core/2.21/reference_appendices/interpreter_discovery.html for more information.
+
+2026-11-05 02:16:49,991 p=17035 u=jeremygraslie n=ansible ERROR| [ERROR]: Task failed: Action failed: Module result deserialization failed: No start of json char found
+
+Task failed: Action failed.
+Origin: /Users/jeremygraslie/GitHub/ansible/roles/create_ansible_user/tasks/main.yml:1:3
+
+1 - name: Create Ansible User
+    ^ column 3
+
+<<< caused by >>>
+
+Module result deserialization failed: No start of json char found See stdout/stderr for the returned output.
+
+
+2026-11-05 02:16:49,991 p=17035 u=jeremygraslie n=ansible INFO| thor | FAILED! => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.14"
+    },
+    "changed": false,
+    "module_stderr": "Shared connection to 172.20.6.202 closed.\r\n",
+    "module_stdout": "sudo: interactive authentication is required\r\n",
+    "msg": "Module result deserialization failed: No start of json char found",
+    "rc": 1
+}
+2026-11-05 02:16:49,992 p=17035 u=jeremygraslie n=ansible INFO| PLAYBOOK RECAP ********************************************************************************************************************************
+2026-11-05 02:16:49,992 p=17035 u=jeremygraslie n=ansible INFO| Playbook run took 0 days, 0 hours, 0 minutes, 1 seconds
+
+2026-11-05 02:16:49,992 p=17035 u=jeremygraslie n=ansible INFO| TASKS RECAP ***********************************************************************************************************************************
+2026-11-05 02:16:49,992 p=17035 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:16:49 -0600 (0:00:01.303)       0:00:01.336 ***** 
+2026-11-05 02:16:49,992 p=17035 u=jeremygraslie n=ansible INFO| =============================================================================== 
+2026-11-05 02:16:49,992 p=17035 u=jeremygraslie n=ansible INFO| create_ansible_user : Create Ansible User ---------------------------------------------------------------------------------------------- 1.30s
+2026-11-05 02:16:49,992 p=17035 u=jeremygraslie n=ansible INFO| include_role : create_ansible_user ----------------------------------------------------------------------------------------------------- 0.02s
+2026-11-05 02:18:37,203 p=17346 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 02:18:37,282 p=17346 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:18:37 -0600 (0:00:00.017)       0:00:00.017 ***** 
+2026-11-05 02:18:37,294 p=17346 u=jeremygraslie n=ansible INFO| thor | SUCCESS => {
+    "changed": false
+}
+2026-11-05 02:18:37,300 p=17346 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:18:37 -0600 (0:00:00.017)       0:00:00.035 ***** 
+2026-11-05 02:18:38,553 p=17346 u=jeremygraslie n=ansible WARNING| [WARNING]: Host 'thor' is using the discovered Python interpreter at '/usr/bin/python3.14', but future installation of another Python interpreter could cause a different interpreter to be discovered. See https://docs.ansible.com/ansible-core/2.21/reference_appendices/interpreter_discovery.html for more information.
+
+2026-11-05 02:18:38,553 p=17346 u=jeremygraslie n=ansible ERROR| [ERROR]: Task failed: Action failed: Module result deserialization failed: No start of json char found
+
+Task failed: Action failed.
+Origin: /Users/jeremygraslie/GitHub/ansible/roles/create_ansible_user/tasks/main.yml:1:3
+
+1 - name: Create Ansible User
+    ^ column 3
+
+<<< caused by >>>
+
+Module result deserialization failed: No start of json char found See stdout/stderr for the returned output.
+
+
+2026-11-05 02:18:38,553 p=17346 u=jeremygraslie n=ansible INFO| thor | FAILED! => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.14"
+    },
+    "changed": false,
+    "module_stderr": "Shared connection to 172.20.6.202 closed.\r\n",
+    "module_stdout": "sudo: interactive authentication is required\r\n",
+    "msg": "Module result deserialization failed: No start of json char found",
+    "rc": 1
+}
+2026-11-05 02:18:38,554 p=17346 u=jeremygraslie n=ansible INFO| PLAYBOOK RECAP ********************************************************************************************************************************
+2026-11-05 02:18:38,554 p=17346 u=jeremygraslie n=ansible INFO| Playbook run took 0 days, 0 hours, 0 minutes, 1 seconds
+
+2026-11-05 02:18:38,554 p=17346 u=jeremygraslie n=ansible INFO| TASKS RECAP ***********************************************************************************************************************************
+2026-11-05 02:18:38,554 p=17346 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:18:38 -0600 (0:00:01.254)       0:00:01.290 ***** 
+2026-11-05 02:18:38,554 p=17346 u=jeremygraslie n=ansible INFO| =============================================================================== 
+2026-11-05 02:18:38,554 p=17346 u=jeremygraslie n=ansible INFO| create_ansible_user : Create Ansible User ---------------------------------------------------------------------------------------------- 1.25s
+2026-11-05 02:18:38,554 p=17346 u=jeremygraslie n=ansible INFO| include_role : create_ansible_user ----------------------------------------------------------------------------------------------------- 0.02s
+2026-11-05 02:20:47,197 p=17690 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 02:21:03,109 p=17774 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 02:21:03,189 p=17774 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:21:03 -0600 (0:00:00.019)       0:00:00.019 ***** 
+2026-11-05 02:21:03,214 p=17774 u=jeremygraslie n=ansible WARNING| [WARNING]: Encountered 1 template error.
+error 1 - 'ansible_become_pass' is undefined
+Origin: <CLI option '-a'>
+
+ansible_become_pass
+
+
+2026-11-05 02:21:03,214 p=17774 u=jeremygraslie n=ansible INFO| thor | SUCCESS => {
+    "ansible_become_pass": "<< error 1 - 'ansible_become_pass' is undefined >>"
+}
+2026-11-05 02:21:03,214 p=17774 u=jeremygraslie n=ansible INFO| PLAYBOOK RECAP ********************************************************************************************************************************
+2026-11-05 02:21:03,214 p=17774 u=jeremygraslie n=ansible INFO| Playbook run took 0 days, 0 hours, 0 minutes, 0 seconds
+
+2026-11-05 02:21:03,214 p=17774 u=jeremygraslie n=ansible INFO| TASKS RECAP ***********************************************************************************************************************************
+2026-11-05 02:21:03,214 p=17774 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:21:03 -0600 (0:00:00.024)       0:00:00.044 ***** 
+2026-11-05 02:21:03,214 p=17774 u=jeremygraslie n=ansible INFO| =============================================================================== 
+2026-11-05 02:21:03,214 p=17774 u=jeremygraslie n=ansible INFO| debug ---------------------------------------------------------------------------------------------------------------------------------- 0.02s
+2026-11-05 02:23:30,747 p=18185 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 02:23:30,825 p=18185 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:23:30 -0600 (0:00:00.016)       0:00:00.016 ***** 
+2026-11-05 02:23:30,850 p=18185 u=jeremygraslie n=ansible WARNING| [WARNING]: Encountered 1 template error.
+error 1 - 'ansible_become_password' is undefined
+Origin: <CLI option '-a'>
+
+ansible_become_password
+
+
+2026-11-05 02:23:30,850 p=18185 u=jeremygraslie n=ansible INFO| thor | SUCCESS => {
+    "ansible_become_password": "<< error 1 - 'ansible_become_password' is undefined >>"
+}
+2026-11-05 02:23:30,851 p=18185 u=jeremygraslie n=ansible INFO| PLAYBOOK RECAP ********************************************************************************************************************************
+2026-11-05 02:23:30,851 p=18185 u=jeremygraslie n=ansible INFO| Playbook run took 0 days, 0 hours, 0 minutes, 0 seconds
+
+2026-11-05 02:23:30,851 p=18185 u=jeremygraslie n=ansible INFO| TASKS RECAP ***********************************************************************************************************************************
+2026-11-05 02:23:30,851 p=18185 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:23:30 -0600 (0:00:00.025)       0:00:00.042 ***** 
+2026-11-05 02:23:30,851 p=18185 u=jeremygraslie n=ansible INFO| =============================================================================== 
+2026-11-05 02:23:30,851 p=18185 u=jeremygraslie n=ansible INFO| debug ---------------------------------------------------------------------------------------------------------------------------------- 0.03s
+2026-11-05 02:23:42,713 p=18224 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 02:23:42,785 p=18224 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:23:42 -0600 (0:00:00.012)       0:00:00.012 ***** 
+2026-11-05 02:23:42,811 p=18224 u=jeremygraslie n=ansible WARNING| [WARNING]: Encountered 1 template error.
+error 1 - 'ansible_become_pass' is undefined
+Origin: <CLI option '-a'>
+
+ansible_become_pass
+
+
+2026-11-05 02:23:42,811 p=18224 u=jeremygraslie n=ansible INFO| thor | SUCCESS => {
+    "ansible_become_pass": "<< error 1 - 'ansible_become_pass' is undefined >>"
+}
+2026-11-05 02:23:42,811 p=18224 u=jeremygraslie n=ansible INFO| PLAYBOOK RECAP ********************************************************************************************************************************
+2026-11-05 02:23:42,811 p=18224 u=jeremygraslie n=ansible INFO| Playbook run took 0 days, 0 hours, 0 minutes, 0 seconds
+
+2026-11-05 02:23:42,812 p=18224 u=jeremygraslie n=ansible INFO| TASKS RECAP ***********************************************************************************************************************************
+2026-11-05 02:23:42,812 p=18224 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:23:42 -0600 (0:00:00.026)       0:00:00.039 ***** 
+2026-11-05 02:23:42,812 p=18224 u=jeremygraslie n=ansible INFO| =============================================================================== 
+2026-11-05 02:23:42,812 p=18224 u=jeremygraslie n=ansible INFO| debug ---------------------------------------------------------------------------------------------------------------------------------- 0.03s
+2026-11-05 02:24:22,019 p=18347 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 02:24:22,096 p=18347 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:24:22 -0600 (0:00:00.017)       0:00:00.017 ***** 
+2026-11-05 02:24:22,123 p=18347 u=jeremygraslie n=ansible WARNING| [WARNING]: Encountered 1 template error.
+error 1 - 'ansible_become_pass' is undefined
+Origin: <CLI option '-a'>
+
+ansible_become_pass
+
+
+2026-11-05 02:24:22,123 p=18347 u=jeremygraslie n=ansible INFO| thor | SUCCESS => {
+    "ansible_become_pass": "<< error 1 - 'ansible_become_pass' is undefined >>"
+}
+2026-11-05 02:24:22,123 p=18347 u=jeremygraslie n=ansible INFO| PLAYBOOK RECAP ********************************************************************************************************************************
+2026-11-05 02:24:22,123 p=18347 u=jeremygraslie n=ansible INFO| Playbook run took 0 days, 0 hours, 0 minutes, 0 seconds
+
+2026-11-05 02:24:22,123 p=18347 u=jeremygraslie n=ansible INFO| TASKS RECAP ***********************************************************************************************************************************
+2026-11-05 02:24:22,123 p=18347 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:24:22 -0600 (0:00:00.026)       0:00:00.044 ***** 
+2026-11-05 02:24:22,123 p=18347 u=jeremygraslie n=ansible INFO| =============================================================================== 
+2026-11-05 02:24:22,123 p=18347 u=jeremygraslie n=ansible INFO| debug ---------------------------------------------------------------------------------------------------------------------------------- 0.03s
+2026-11-05 02:24:30,760 p=18372 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 02:24:30,821 p=18372 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:24:30 -0600 (0:00:00.010)       0:00:00.010 ***** 
+2026-11-05 02:24:30,847 p=18372 u=jeremygraslie n=ansible WARNING| [WARNING]: Encountered 1 template error.
+error 1 - 'ansible_become_password' is undefined
+Origin: <CLI option '-a'>
+
+ansible_become_password
+
+
+2026-11-05 02:24:30,848 p=18372 u=jeremygraslie n=ansible INFO| thor | SUCCESS => {
+    "ansible_become_password": "<< error 1 - 'ansible_become_password' is undefined >>"
+}
+2026-11-05 02:24:30,848 p=18372 u=jeremygraslie n=ansible INFO| PLAYBOOK RECAP ********************************************************************************************************************************
+2026-11-05 02:24:30,848 p=18372 u=jeremygraslie n=ansible INFO| Playbook run took 0 days, 0 hours, 0 minutes, 0 seconds
+
+2026-11-05 02:24:30,848 p=18372 u=jeremygraslie n=ansible INFO| TASKS RECAP ***********************************************************************************************************************************
+2026-11-05 02:24:30,848 p=18372 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:24:30 -0600 (0:00:00.026)       0:00:00.037 ***** 
+2026-11-05 02:24:30,848 p=18372 u=jeremygraslie n=ansible INFO| =============================================================================== 
+2026-11-05 02:24:30,848 p=18372 u=jeremygraslie n=ansible INFO| debug ---------------------------------------------------------------------------------------------------------------------------------- 0.03s
+2026-11-05 02:26:07,602 p=18626 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 02:26:07,679 p=18626 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:26:07 -0600 (0:00:00.016)       0:00:00.016 ***** 
+2026-11-05 02:26:07,707 p=18626 u=jeremygraslie n=ansible WARNING| [WARNING]: Encountered 1 template error.
+error 1 - 'ansible_become_pass' is undefined
+Origin: <CLI option '-a'>
+
+ansible_become_pass
+
+
+2026-11-05 02:26:07,707 p=18626 u=jeremygraslie n=ansible INFO| thor | SUCCESS => {
+    "ansible_become_pass": "<< error 1 - 'ansible_become_pass' is undefined >>"
+}
+2026-11-05 02:26:07,707 p=18626 u=jeremygraslie n=ansible INFO| PLAYBOOK RECAP ********************************************************************************************************************************
+2026-11-05 02:26:07,707 p=18626 u=jeremygraslie n=ansible INFO| Playbook run took 0 days, 0 hours, 0 minutes, 0 seconds
+
+2026-11-05 02:26:07,707 p=18626 u=jeremygraslie n=ansible INFO| TASKS RECAP ***********************************************************************************************************************************
+2026-11-05 02:26:07,707 p=18626 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:26:07 -0600 (0:00:00.027)       0:00:00.044 ***** 
+2026-11-05 02:26:07,707 p=18626 u=jeremygraslie n=ansible INFO| =============================================================================== 
+2026-11-05 02:26:07,707 p=18626 u=jeremygraslie n=ansible INFO| debug ---------------------------------------------------------------------------------------------------------------------------------- 0.03s
+2026-11-05 02:26:10,495 p=18643 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 02:26:10,557 p=18643 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:26:10 -0600 (0:00:00.010)       0:00:00.010 ***** 
+2026-11-05 02:26:10,581 p=18643 u=jeremygraslie n=ansible WARNING| [WARNING]: Encountered 1 template error.
+error 1 - 'ansible_become_password' is undefined
+Origin: <CLI option '-a'>
+
+ansible_become_password
+
+
+2026-11-05 02:26:10,581 p=18643 u=jeremygraslie n=ansible INFO| thor | SUCCESS => {
+    "ansible_become_password": "<< error 1 - 'ansible_become_password' is undefined >>"
+}
+2026-11-05 02:26:10,581 p=18643 u=jeremygraslie n=ansible INFO| PLAYBOOK RECAP ********************************************************************************************************************************
+2026-11-05 02:26:10,581 p=18643 u=jeremygraslie n=ansible INFO| Playbook run took 0 days, 0 hours, 0 minutes, 0 seconds
+
+2026-11-05 02:26:10,581 p=18643 u=jeremygraslie n=ansible INFO| TASKS RECAP ***********************************************************************************************************************************
+2026-11-05 02:26:10,581 p=18643 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:26:10 -0600 (0:00:00.024)       0:00:00.034 ***** 
+2026-11-05 02:26:10,581 p=18643 u=jeremygraslie n=ansible INFO| =============================================================================== 
+2026-11-05 02:26:10,581 p=18643 u=jeremygraslie n=ansible INFO| debug ---------------------------------------------------------------------------------------------------------------------------------- 0.02s
+2026-11-05 02:26:53,498 p=18765 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 02:26:53,579 p=18765 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:26:53 -0600 (0:00:00.021)       0:00:00.021 ***** 
+2026-11-05 02:26:53,606 p=18765 u=jeremygraslie n=ansible WARNING| [WARNING]: Encountered 1 template error.
+error 1 - 'ansible_become_pass' is undefined
+Origin: <CLI option '-a'>
+
+ansible_become_pass
+
+
+2026-11-05 02:26:53,606 p=18765 u=jeremygraslie n=ansible INFO| thor | SUCCESS => {
+    "ansible_become_pass": "<< error 1 - 'ansible_become_pass' is undefined >>"
+}
+2026-11-05 02:26:53,607 p=18765 u=jeremygraslie n=ansible INFO| PLAYBOOK RECAP ********************************************************************************************************************************
+2026-11-05 02:26:53,607 p=18765 u=jeremygraslie n=ansible INFO| Playbook run took 0 days, 0 hours, 0 minutes, 0 seconds
+
+2026-11-05 02:26:53,607 p=18765 u=jeremygraslie n=ansible INFO| TASKS RECAP ***********************************************************************************************************************************
+2026-11-05 02:26:53,607 p=18765 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:26:53 -0600 (0:00:00.027)       0:00:00.049 ***** 
+2026-11-05 02:26:53,607 p=18765 u=jeremygraslie n=ansible INFO| =============================================================================== 
+2026-11-05 02:26:53,607 p=18765 u=jeremygraslie n=ansible INFO| debug ---------------------------------------------------------------------------------------------------------------------------------- 0.03s
+2026-11-05 02:26:56,135 p=18781 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 02:26:56,197 p=18781 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:26:56 -0600 (0:00:00.010)       0:00:00.010 ***** 
+2026-11-05 02:26:56,220 p=18781 u=jeremygraslie n=ansible WARNING| [WARNING]: Encountered 1 template error.
+error 1 - 'ansible_become_password' is undefined
+Origin: <CLI option '-a'>
+
+ansible_become_password
+
+
+2026-11-05 02:26:56,220 p=18781 u=jeremygraslie n=ansible INFO| thor | SUCCESS => {
+    "ansible_become_password": "<< error 1 - 'ansible_become_password' is undefined >>"
+}
+2026-11-05 02:26:56,221 p=18781 u=jeremygraslie n=ansible INFO| PLAYBOOK RECAP ********************************************************************************************************************************
+2026-11-05 02:26:56,221 p=18781 u=jeremygraslie n=ansible INFO| Playbook run took 0 days, 0 hours, 0 minutes, 0 seconds
+
+2026-11-05 02:26:56,221 p=18781 u=jeremygraslie n=ansible INFO| TASKS RECAP ***********************************************************************************************************************************
+2026-11-05 02:26:56,221 p=18781 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:26:56 -0600 (0:00:00.024)       0:00:00.034 ***** 
+2026-11-05 02:26:56,221 p=18781 u=jeremygraslie n=ansible INFO| =============================================================================== 
+2026-11-05 02:26:56,221 p=18781 u=jeremygraslie n=ansible INFO| debug ---------------------------------------------------------------------------------------------------------------------------------- 0.02s
+2026-11-05 02:28:20,032 p=18981 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 02:28:44,452 p=19148 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 02:28:44,529 p=19148 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:28:44 -0600 (0:00:00.017)       0:00:00.017 ***** 
+2026-11-05 02:28:44,556 p=19148 u=jeremygraslie n=ansible WARNING| [WARNING]: Encountered 1 template error.
+error 1 - 'ansible_become_password' is undefined
+Origin: <CLI option '-a'>
+
+ansible_become_password
+
+
+2026-11-05 02:28:44,556 p=19148 u=jeremygraslie n=ansible INFO| thor | SUCCESS => {
+    "ansible_become_password": "<< error 1 - 'ansible_become_password' is undefined >>"
+}
+2026-11-05 02:28:44,557 p=19148 u=jeremygraslie n=ansible INFO| PLAYBOOK RECAP ********************************************************************************************************************************
+2026-11-05 02:28:44,557 p=19148 u=jeremygraslie n=ansible INFO| Playbook run took 0 days, 0 hours, 0 minutes, 0 seconds
+
+2026-11-05 02:28:44,557 p=19148 u=jeremygraslie n=ansible INFO| TASKS RECAP ***********************************************************************************************************************************
+2026-11-05 02:28:44,557 p=19148 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:28:44 -0600 (0:00:00.027)       0:00:00.045 ***** 
+2026-11-05 02:28:44,557 p=19148 u=jeremygraslie n=ansible INFO| =============================================================================== 
+2026-11-05 02:28:44,557 p=19148 u=jeremygraslie n=ansible INFO| debug ---------------------------------------------------------------------------------------------------------------------------------- 0.03s
+2026-11-05 02:28:51,207 p=19170 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 02:28:51,269 p=19170 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:28:51 -0600 (0:00:00.010)       0:00:00.010 ***** 
+2026-11-05 02:28:51,294 p=19170 u=jeremygraslie n=ansible WARNING| [WARNING]: Encountered 1 template error.
+error 1 - 'ansible_become_pass' is undefined
+Origin: <CLI option '-a'>
+
+ansible_become_pass
+
+
+2026-11-05 02:28:51,295 p=19170 u=jeremygraslie n=ansible INFO| thor | SUCCESS => {
+    "ansible_become_pass": "<< error 1 - 'ansible_become_pass' is undefined >>"
+}
+2026-11-05 02:28:51,295 p=19170 u=jeremygraslie n=ansible INFO| PLAYBOOK RECAP ********************************************************************************************************************************
+2026-11-05 02:28:51,295 p=19170 u=jeremygraslie n=ansible INFO| Playbook run took 0 days, 0 hours, 0 minutes, 0 seconds
+
+2026-11-05 02:28:51,295 p=19170 u=jeremygraslie n=ansible INFO| TASKS RECAP ***********************************************************************************************************************************
+2026-11-05 02:28:51,295 p=19170 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:28:51 -0600 (0:00:00.026)       0:00:00.036 ***** 
+2026-11-05 02:28:51,295 p=19170 u=jeremygraslie n=ansible INFO| =============================================================================== 
+2026-11-05 02:28:51,295 p=19170 u=jeremygraslie n=ansible INFO| debug ---------------------------------------------------------------------------------------------------------------------------------- 0.03s
+2026-11-05 02:29:48,838 p=19360 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 02:29:48,916 p=19360 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:29:48 -0600 (0:00:00.017)       0:00:00.017 ***** 
+2026-11-05 02:29:48,946 p=19360 u=jeremygraslie n=ansible WARNING| [WARNING]: Encountered 1 template error.
+error 1 - 'ansible_become_pass' is undefined
+Origin: <CLI option '-a'>
+
+ansible_become_pass
+
+
+2026-11-05 02:29:48,946 p=19360 u=jeremygraslie n=ansible INFO| thor | SUCCESS => {
+    "ansible_become_pass": "<< error 1 - 'ansible_become_pass' is undefined >>"
+}
+2026-11-05 02:29:48,946 p=19360 u=jeremygraslie n=ansible INFO| PLAYBOOK RECAP ********************************************************************************************************************************
+2026-11-05 02:29:48,946 p=19360 u=jeremygraslie n=ansible INFO| Playbook run took 0 days, 0 hours, 0 minutes, 0 seconds
+
+2026-11-05 02:29:48,946 p=19360 u=jeremygraslie n=ansible INFO| TASKS RECAP ***********************************************************************************************************************************
+2026-11-05 02:29:48,946 p=19360 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:29:48 -0600 (0:00:00.030)       0:00:00.048 ***** 
+2026-11-05 02:29:48,947 p=19360 u=jeremygraslie n=ansible INFO| =============================================================================== 
+2026-11-05 02:29:48,947 p=19360 u=jeremygraslie n=ansible INFO| debug ---------------------------------------------------------------------------------------------------------------------------------- 0.03s
+2026-11-05 02:29:53,226 p=19377 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 02:29:53,289 p=19377 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:29:53 -0600 (0:00:00.010)       0:00:00.010 ***** 
+2026-11-05 02:29:53,311 p=19377 u=jeremygraslie n=ansible WARNING| [WARNING]: Encountered 1 template error.
+error 1 - 'ansible_become_password' is undefined
+Origin: <CLI option '-a'>
+
+ansible_become_password
+
+
+2026-11-05 02:29:53,311 p=19377 u=jeremygraslie n=ansible INFO| thor | SUCCESS => {
+    "ansible_become_password": "<< error 1 - 'ansible_become_password' is undefined >>"
+}
+2026-11-05 02:29:53,311 p=19377 u=jeremygraslie n=ansible INFO| PLAYBOOK RECAP ********************************************************************************************************************************
+2026-11-05 02:29:53,312 p=19377 u=jeremygraslie n=ansible INFO| Playbook run took 0 days, 0 hours, 0 minutes, 0 seconds
+
+2026-11-05 02:29:53,312 p=19377 u=jeremygraslie n=ansible INFO| TASKS RECAP ***********************************************************************************************************************************
+2026-11-05 02:29:53,312 p=19377 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:29:53 -0600 (0:00:00.022)       0:00:00.033 ***** 
+2026-11-05 02:29:53,312 p=19377 u=jeremygraslie n=ansible INFO| =============================================================================== 
+2026-11-05 02:29:53,312 p=19377 u=jeremygraslie n=ansible INFO| debug ---------------------------------------------------------------------------------------------------------------------------------- 0.02s
+2026-11-05 02:30:17,240 p=19475 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 02:30:17,280 p=19475 u=jeremygraslie n=ansible WARNING| [WARNING]: Unable to parse /Users/jeremygraslie/GitHub/ansible/inventory/inventory.yml as an inventory source
+
+2026-11-05 02:30:17,280 p=19475 u=jeremygraslie n=ansible WARNING| [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2026-11-05 02:30:17,283 p=19475 u=jeremygraslie n=ansible WARNING| [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2026-11-05 02:30:17,283 p=19475 u=jeremygraslie n=ansible WARNING| [WARNING]: Could not match supplied host pattern, ignoring: thor
+
+2026-11-05 02:30:17,307 p=19475 u=jeremygraslie n=ansible INFO| PLAYBOOK RECAP ********************************************************************************************************************************
+2026-11-05 02:30:17,307 p=19475 u=jeremygraslie n=ansible INFO| Playbook run took 0 days, 0 hours, 0 minutes, 0 seconds
+
+2026-11-05 02:30:17,307 p=19475 u=jeremygraslie n=ansible INFO| TASKS RECAP ***********************************************************************************************************************************
+2026-11-05 02:30:17,307 p=19475 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:30:17 -0600 (0:00:00.008)       0:00:00.008 ***** 
+2026-11-05 02:30:17,307 p=19475 u=jeremygraslie n=ansible INFO| =============================================================================== 
+2026-11-05 02:30:52,357 p=19589 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 02:30:52,435 p=19589 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:30:52 -0600 (0:00:00.017)       0:00:00.017 ***** 
+2026-11-05 02:30:52,464 p=19589 u=jeremygraslie n=ansible WARNING| [WARNING]: Encountered 1 template error.
+error 1 - 'ansible_become_password' is undefined
+Origin: <CLI option '-a'>
+
+ansible_become_password
+
+
+2026-11-05 02:30:52,465 p=19589 u=jeremygraslie n=ansible INFO| thor | SUCCESS => {
+    "ansible_become_password": "<< error 1 - 'ansible_become_password' is undefined >>"
+}
+2026-11-05 02:30:52,465 p=19589 u=jeremygraslie n=ansible INFO| PLAYBOOK RECAP ********************************************************************************************************************************
+2026-11-05 02:30:52,465 p=19589 u=jeremygraslie n=ansible INFO| Playbook run took 0 days, 0 hours, 0 minutes, 0 seconds
+
+2026-11-05 02:30:52,465 p=19589 u=jeremygraslie n=ansible INFO| TASKS RECAP ***********************************************************************************************************************************
+2026-11-05 02:30:52,465 p=19589 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:30:52 -0600 (0:00:00.030)       0:00:00.047 ***** 
+2026-11-05 02:30:52,465 p=19589 u=jeremygraslie n=ansible INFO| =============================================================================== 
+2026-11-05 02:30:52,465 p=19589 u=jeremygraslie n=ansible INFO| debug ---------------------------------------------------------------------------------------------------------------------------------- 0.03s
+2026-11-05 02:30:59,436 p=19609 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 02:30:59,499 p=19609 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:30:59 -0600 (0:00:00.010)       0:00:00.010 ***** 
+2026-11-05 02:30:59,525 p=19609 u=jeremygraslie n=ansible WARNING| [WARNING]: Encountered 1 template error.
+error 1 - 'ansible_become_password' is undefined
+Origin: <CLI option '-a'>
+
+ansible_become_password
+
+
+2026-11-05 02:30:59,525 p=19609 u=jeremygraslie n=ansible INFO| thor | SUCCESS => {
+    "ansible_become_password": "<< error 1 - 'ansible_become_password' is undefined >>"
+}
+2026-11-05 02:30:59,525 p=19609 u=jeremygraslie n=ansible INFO| PLAYBOOK RECAP ********************************************************************************************************************************
+2026-11-05 02:30:59,525 p=19609 u=jeremygraslie n=ansible INFO| Playbook run took 0 days, 0 hours, 0 minutes, 0 seconds
+
+2026-11-05 02:30:59,525 p=19609 u=jeremygraslie n=ansible INFO| TASKS RECAP ***********************************************************************************************************************************
+2026-11-05 02:30:59,525 p=19609 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:30:59 -0600 (0:00:00.026)       0:00:00.037 ***** 
+2026-11-05 02:30:59,525 p=19609 u=jeremygraslie n=ansible INFO| =============================================================================== 
+2026-11-05 02:30:59,525 p=19609 u=jeremygraslie n=ansible INFO| debug ---------------------------------------------------------------------------------------------------------------------------------- 0.03s
+2026-11-05 02:31:15,418 p=19658 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 02:31:15,458 p=19658 u=jeremygraslie n=ansible WARNING| [WARNING]: Unable to parse /Users/jeremygraslie/GitHub/ansible/inventory/inventory.yml as an inventory source
+
+2026-11-05 02:31:15,458 p=19658 u=jeremygraslie n=ansible WARNING| [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2026-11-05 02:31:15,461 p=19658 u=jeremygraslie n=ansible WARNING| [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2026-11-05 02:31:15,461 p=19658 u=jeremygraslie n=ansible WARNING| [WARNING]: Could not match supplied host pattern, ignoring: thor
+
+2026-11-05 02:31:15,485 p=19658 u=jeremygraslie n=ansible INFO| PLAYBOOK RECAP ********************************************************************************************************************************
+2026-11-05 02:31:15,485 p=19658 u=jeremygraslie n=ansible INFO| Playbook run took 0 days, 0 hours, 0 minutes, 0 seconds
+
+2026-11-05 02:31:15,485 p=19658 u=jeremygraslie n=ansible INFO| TASKS RECAP ***********************************************************************************************************************************
+2026-11-05 02:31:15,485 p=19658 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:31:15 -0600 (0:00:00.008)       0:00:00.008 ***** 
+2026-11-05 02:31:15,485 p=19658 u=jeremygraslie n=ansible INFO| =============================================================================== 
+2026-11-05 02:31:46,292 p=19741 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 02:31:46,370 p=19741 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:31:46 -0600 (0:00:00.016)       0:00:00.016 ***** 
+2026-11-05 02:31:46,395 p=19741 u=jeremygraslie n=ansible WARNING| [WARNING]: Encountered 1 template error.
+error 1 - 'ansible_become_password' is undefined
+Origin: <CLI option '-a'>
+
+ansible_become_password
+
+
+2026-11-05 02:31:46,396 p=19741 u=jeremygraslie n=ansible INFO| thor | SUCCESS => {
+    "ansible_become_password": "<< error 1 - 'ansible_become_password' is undefined >>"
+}
+2026-11-05 02:31:46,396 p=19741 u=jeremygraslie n=ansible INFO| PLAYBOOK RECAP ********************************************************************************************************************************
+2026-11-05 02:31:46,396 p=19741 u=jeremygraslie n=ansible INFO| Playbook run took 0 days, 0 hours, 0 minutes, 0 seconds
+
+2026-11-05 02:31:46,396 p=19741 u=jeremygraslie n=ansible INFO| TASKS RECAP ***********************************************************************************************************************************
+2026-11-05 02:31:46,396 p=19741 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:31:46 -0600 (0:00:00.026)       0:00:00.042 ***** 
+2026-11-05 02:31:46,396 p=19741 u=jeremygraslie n=ansible INFO| =============================================================================== 
+2026-11-05 02:31:46,396 p=19741 u=jeremygraslie n=ansible INFO| debug ---------------------------------------------------------------------------------------------------------------------------------- 0.03s
+2026-11-05 02:31:50,472 p=19761 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 02:31:50,535 p=19761 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:31:50 -0600 (0:00:00.010)       0:00:00.010 ***** 
+2026-11-05 02:31:50,557 p=19761 u=jeremygraslie n=ansible WARNING| [WARNING]: Encountered 1 template error.
+error 1 - 'ansible_become_pass' is undefined
+Origin: <CLI option '-a'>
+
+ansible_become_pass
+
+
+2026-11-05 02:31:50,557 p=19761 u=jeremygraslie n=ansible INFO| thor | SUCCESS => {
+    "ansible_become_pass": "<< error 1 - 'ansible_become_pass' is undefined >>"
+}
+2026-11-05 02:31:50,558 p=19761 u=jeremygraslie n=ansible INFO| PLAYBOOK RECAP ********************************************************************************************************************************
+2026-11-05 02:31:50,558 p=19761 u=jeremygraslie n=ansible INFO| Playbook run took 0 days, 0 hours, 0 minutes, 0 seconds
+
+2026-11-05 02:31:50,558 p=19761 u=jeremygraslie n=ansible INFO| TASKS RECAP ***********************************************************************************************************************************
+2026-11-05 02:31:50,558 p=19761 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:31:50 -0600 (0:00:00.023)       0:00:00.033 ***** 
+2026-11-05 02:31:50,558 p=19761 u=jeremygraslie n=ansible INFO| =============================================================================== 
+2026-11-05 02:31:50,558 p=19761 u=jeremygraslie n=ansible INFO| debug ---------------------------------------------------------------------------------------------------------------------------------- 0.02s
+2026-11-05 02:31:55,467 p=19777 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 02:31:55,530 p=19777 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:31:55 -0600 (0:00:00.011)       0:00:00.011 ***** 
+2026-11-05 02:31:55,554 p=19777 u=jeremygraslie n=ansible INFO| thor | SUCCESS => {
+    "hostvars[inventory_hostname]": {
+        "ansible_check_mode": false,
+        "ansible_config_file": "/Users/jeremygraslie/GitHub/ansible/ansible.cfg",
+        "ansible_connection": "ssh",
+        "ansible_diff_mode": false,
+        "ansible_facts": {},
+        "ansible_forks": 5,
+        "ansible_host": "172.20.6.202",
+        "ansible_inventory_sources": [
+            "/Users/jeremygraslie/GitHub/ansible/inventory/inventory.yaml"
+        ],
+        "ansible_playbook_python": "/opt/homebrew/Cellar/ansible/14.5.0_2/libexec/bin/python",
+        "ansible_ssh_private_key_file": "~/.ssh/ubuntu_server",
+        "ansible_user": "jeremy",
+        "ansible_verbosity": 1,
+        "ansible_version": {
+            "full": "2.21.5",
+            "major": 2,
+            "minor": 21,
+            "revision": 5,
+            "string": "2.21.5"
+        },
+        "group_names": [
+            "game_servers",
+            "valheim_server"
+        ],
+        "groups": {
+            "all": [
+                "thor"
+            ],
+            "game_servers": [
+                "thor"
+            ],
+            "ungrouped": [],
+            "valheim_server": [
+                "thor"
+            ]
+        },
+        "inventory_dir": "/Users/jeremygraslie/GitHub/ansible/inventory",
+        "inventory_file": "/Users/jeremygraslie/GitHub/ansible/inventory/inventory.yaml",
+        "inventory_hostname": "thor",
+        "inventory_hostname_short": "thor",
+        "playbook_dir": "/Users/jeremygraslie/GitHub/ansible",
+        "thor_become_pass": "Okaneganai11"
+    }
+}
+2026-11-05 02:31:55,554 p=19777 u=jeremygraslie n=ansible INFO| PLAYBOOK RECAP ********************************************************************************************************************************
+2026-11-05 02:31:55,554 p=19777 u=jeremygraslie n=ansible INFO| Playbook run took 0 days, 0 hours, 0 minutes, 0 seconds
+
+2026-11-05 02:31:55,554 p=19777 u=jeremygraslie n=ansible INFO| TASKS RECAP ***********************************************************************************************************************************
+2026-11-05 02:31:55,554 p=19777 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:31:55 -0600 (0:00:00.023)       0:00:00.035 ***** 
+2026-11-05 02:31:55,554 p=19777 u=jeremygraslie n=ansible INFO| =============================================================================== 
+2026-11-05 02:31:55,554 p=19777 u=jeremygraslie n=ansible INFO| debug ---------------------------------------------------------------------------------------------------------------------------------- 0.02s
+2026-11-05 02:32:26,035 p=19862 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 02:32:59,972 p=19996 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 02:34:08,435 p=20239 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 02:34:16,029 p=20295 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 02:34:16,069 p=20295 u=jeremygraslie n=ansible WARNING| [WARNING]: Unable to parse /Users/jeremygraslie/GitHub/ansible/inventory/inventory.yaml as an inventory source
+
+2026-11-05 02:34:16,069 p=20295 u=jeremygraslie n=ansible WARNING| [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2026-11-05 02:34:16,073 p=20295 u=jeremygraslie n=ansible WARNING| [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2026-11-05 02:34:16,073 p=20295 u=jeremygraslie n=ansible WARNING| [WARNING]: Could not match supplied host pattern, ignoring: thor
+
+2026-11-05 02:34:16,097 p=20295 u=jeremygraslie n=ansible INFO| PLAYBOOK RECAP ********************************************************************************************************************************
+2026-11-05 02:34:16,097 p=20295 u=jeremygraslie n=ansible INFO| Playbook run took 0 days, 0 hours, 0 minutes, 0 seconds
+
+2026-11-05 02:34:16,097 p=20295 u=jeremygraslie n=ansible INFO| TASKS RECAP ***********************************************************************************************************************************
+2026-11-05 02:34:16,097 p=20295 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:34:16 -0600 (0:00:00.008)       0:00:00.008 ***** 
+2026-11-05 02:34:16,097 p=20295 u=jeremygraslie n=ansible INFO| =============================================================================== 
+2026-11-05 02:34:26,045 p=20330 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 02:34:26,122 p=20330 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:34:26 -0600 (0:00:00.018)       0:00:00.018 ***** 
+2026-11-05 02:34:26,147 p=20330 u=jeremygraslie n=ansible INFO| thor | SUCCESS => {
+    "ansible_become_pass": "Okaneganai11"
+}
+2026-11-05 02:34:26,147 p=20330 u=jeremygraslie n=ansible INFO| PLAYBOOK RECAP ********************************************************************************************************************************
+2026-11-05 02:34:26,147 p=20330 u=jeremygraslie n=ansible INFO| Playbook run took 0 days, 0 hours, 0 minutes, 0 seconds
+
+2026-11-05 02:34:26,147 p=20330 u=jeremygraslie n=ansible INFO| TASKS RECAP ***********************************************************************************************************************************
+2026-11-05 02:34:26,147 p=20330 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:34:26 -0600 (0:00:00.025)       0:00:00.043 ***** 
+2026-11-05 02:34:26,147 p=20330 u=jeremygraslie n=ansible INFO| =============================================================================== 
+2026-11-05 02:34:26,147 p=20330 u=jeremygraslie n=ansible INFO| debug ---------------------------------------------------------------------------------------------------------------------------------- 0.03s
+2026-11-05 02:34:50,222 p=20410 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 02:34:50,261 p=20410 u=jeremygraslie n=ansible WARNING| [WARNING]: Unable to parse /Users/jeremygraslie/GitHub/ansible/inventory/inventory.yaml as an inventory source
+
+2026-11-05 02:34:50,261 p=20410 u=jeremygraslie n=ansible WARNING| [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2026-11-05 02:34:50,264 p=20410 u=jeremygraslie n=ansible WARNING| [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2026-11-05 02:34:50,264 p=20410 u=jeremygraslie n=ansible WARNING| [WARNING]: Could not match supplied host pattern, ignoring: thor
+
+2026-11-05 02:34:50,287 p=20410 u=jeremygraslie n=ansible INFO| PLAYBOOK RECAP ********************************************************************************************************************************
+2026-11-05 02:34:50,287 p=20410 u=jeremygraslie n=ansible INFO| Playbook run took 0 days, 0 hours, 0 minutes, 0 seconds
+
+2026-11-05 02:34:50,287 p=20410 u=jeremygraslie n=ansible INFO| TASKS RECAP ***********************************************************************************************************************************
+2026-11-05 02:34:50,287 p=20410 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:34:50 -0600 (0:00:00.007)       0:00:00.007 ***** 
+2026-11-05 02:34:50,287 p=20410 u=jeremygraslie n=ansible INFO| =============================================================================== 
+2026-11-05 02:35:12,801 p=20478 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 02:35:12,876 p=20478 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:35:12 -0600 (0:00:00.016)       0:00:00.016 ***** 
+2026-11-05 02:35:12,902 p=20478 u=jeremygraslie n=ansible INFO| thor | SUCCESS => {
+    "ansible_become_pass": "Okaneganai11"
+}
+2026-11-05 02:35:12,902 p=20478 u=jeremygraslie n=ansible INFO| PLAYBOOK RECAP ********************************************************************************************************************************
+2026-11-05 02:35:12,902 p=20478 u=jeremygraslie n=ansible INFO| Playbook run took 0 days, 0 hours, 0 minutes, 0 seconds
+
+2026-11-05 02:35:12,902 p=20478 u=jeremygraslie n=ansible INFO| TASKS RECAP ***********************************************************************************************************************************
+2026-11-05 02:35:12,903 p=20478 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:35:12 -0600 (0:00:00.027)       0:00:00.043 ***** 
+2026-11-05 02:35:12,903 p=20478 u=jeremygraslie n=ansible INFO| =============================================================================== 
+2026-11-05 02:35:12,903 p=20478 u=jeremygraslie n=ansible INFO| debug ---------------------------------------------------------------------------------------------------------------------------------- 0.03s
+2026-11-05 02:35:26,292 p=20537 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 02:35:26,363 p=20537 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:35:26 -0600 (0:00:00.012)       0:00:00.012 ***** 
+2026-11-05 02:35:26,377 p=20537 u=jeremygraslie n=ansible INFO| thor | SUCCESS => {
+    "changed": false
+}
+2026-11-05 02:35:26,382 p=20537 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:35:26 -0600 (0:00:00.018)       0:00:00.031 ***** 
+2026-11-05 02:35:39,629 p=20537 u=jeremygraslie n=ansible WARNING| [WARNING]: Host 'thor' is using the discovered Python interpreter at '/usr/bin/python3.14', but future installation of another Python interpreter could cause a different interpreter to be discovered. See https://docs.ansible.com/ansible-core/2.21/reference_appendices/interpreter_discovery.html for more information.
+
+2026-11-05 02:35:39,630 p=20537 u=jeremygraslie n=ansible ERROR| [ERROR]: Task failed: Timeout (12s) waiting for privilege escalation prompt:
+Origin: /Users/jeremygraslie/GitHub/ansible/roles/create_ansible_user/tasks/main.yml:1:3
+
+1 - name: Create Ansible User
+    ^ column 3
+
+
+2026-11-05 02:35:39,630 p=20537 u=jeremygraslie n=ansible INFO| thor | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Task failed: Timeout (12s) waiting for privilege escalation prompt:",
+    "unreachable": true
+}
+2026-11-05 02:35:39,631 p=20537 u=jeremygraslie n=ansible INFO| PLAYBOOK RECAP ********************************************************************************************************************************
+2026-11-05 02:35:39,631 p=20537 u=jeremygraslie n=ansible INFO| Playbook run took 0 days, 0 hours, 0 minutes, 13 seconds
+
+2026-11-05 02:35:39,631 p=20537 u=jeremygraslie n=ansible INFO| TASKS RECAP ***********************************************************************************************************************************
+2026-11-05 02:35:39,632 p=20537 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:35:39 -0600 (0:00:13.249)       0:00:13.281 ***** 
+2026-11-05 02:35:39,632 p=20537 u=jeremygraslie n=ansible INFO| =============================================================================== 
+2026-11-05 02:35:39,632 p=20537 u=jeremygraslie n=ansible INFO| create_ansible_user : Create Ansible User --------------------------------------------------------------------------------------------- 13.25s
+2026-11-05 02:35:39,632 p=20537 u=jeremygraslie n=ansible INFO| include_role : create_ansible_user ----------------------------------------------------------------------------------------------------- 0.02s
+2026-11-05 02:38:23,968 p=20979 u=jeremygraslie n=ansible INFO| Using /Users/jeremygraslie/GitHub/ansible/ansible.cfg as config file
+2026-11-05 02:38:27,645 p=20979 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:38:27 -0600 (0:00:00.018)       0:00:00.018 ***** 
+2026-11-05 02:38:27,656 p=20979 u=jeremygraslie n=ansible INFO| thor | SUCCESS => {
+    "changed": false
+}
+2026-11-05 02:38:27,661 p=20979 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:38:27 -0600 (0:00:00.016)       0:00:00.035 ***** 
+2026-11-05 02:38:40,900 p=20979 u=jeremygraslie n=ansible WARNING| [WARNING]: Host 'thor' is using the discovered Python interpreter at '/usr/bin/python3.14', but future installation of another Python interpreter could cause a different interpreter to be discovered. See https://docs.ansible.com/ansible-core/2.21/reference_appendices/interpreter_discovery.html for more information.
+
+2026-11-05 02:38:40,901 p=20979 u=jeremygraslie n=ansible ERROR| [ERROR]: Task failed: Timeout (12s) waiting for privilege escalation prompt:
+Origin: /Users/jeremygraslie/GitHub/ansible/roles/create_ansible_user/tasks/main.yml:1:3
+
+1 - name: Create Ansible User
+    ^ column 3
+
+
+2026-11-05 02:38:40,901 p=20979 u=jeremygraslie n=ansible INFO| thor | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Task failed: Timeout (12s) waiting for privilege escalation prompt:",
+    "unreachable": true
+}
+2026-11-05 02:38:40,902 p=20979 u=jeremygraslie n=ansible INFO| PLAYBOOK RECAP ********************************************************************************************************************************
+2026-11-05 02:38:40,902 p=20979 u=jeremygraslie n=ansible INFO| Playbook run took 0 days, 0 hours, 0 minutes, 13 seconds
+
+2026-11-05 02:38:40,902 p=20979 u=jeremygraslie n=ansible INFO| TASKS RECAP ***********************************************************************************************************************************
+2026-11-05 02:38:40,902 p=20979 u=jeremygraslie n=ansible INFO| Thursday 05 November 2026  02:38:40 -0600 (0:00:13.240)       0:00:13.275 ***** 
+2026-11-05 02:38:40,902 p=20979 u=jeremygraslie n=ansible INFO| =============================================================================== 
+2026-11-05 02:38:40,902 p=20979 u=jeremygraslie n=ansible INFO| create_ansible_user : Create Ansible User --------------------------------------------------------------------------------------------- 13.24s
+2026-11-05 02:38:40,902 p=20979 u=jeremygraslie n=ansible INFO| include_role : create_ansible_user ----------------------------------------------------------------------------------------------------- 0.02s
